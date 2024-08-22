@@ -1,0 +1,15 @@
+# Archivos y carpetas temporales de Unity
+Temp/
+Library/
+Logs/
+ProjectSettings/ProjectVersion.txt
+
+# Archivos generados por Unity
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# Archivos de sistema y temporales
+.DS_Store
+Thumbs.db
+*.swp
