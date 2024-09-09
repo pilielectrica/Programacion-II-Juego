@@ -15,11 +15,13 @@ public class Mover : MonoBehaviour
 
     // Variable para referenciar otro componente del objeto
     private Rigidbody2D miRigidbody2D;
+    private Animator miAnimator;
 
     // Codigo ejecutado cuando el objeto se activa en el nivel
     private void OnEnable()
     {
         miRigidbody2D = GetComponent<Rigidbody2D>();
+        miAnimator = GetComponent<Animator>();
     }
 
     // Codigo ejecutado en cada frame del juego (Intervalo variable)
@@ -28,6 +30,18 @@ public class Mover : MonoBehaviour
         moverHorizontal = Input.GetAxis("Horizontal");
         moverVertical = Input.GetAxis("Vertical");
         direccion = new Vector2(moverHorizontal, moverVertical);
+        // Actualizar los parámetros del Animator para las transiciones
+        // Actualizar los parámetros del Animator
+        if (direccion.magnitude > 0.1f)
+        {
+            miAnimator.SetBool("IsMoving", true);
+            miAnimator.SetFloat("moveX", moverHorizontal);
+            miAnimator.SetFloat("moveY", moverVertical);
+        }
+        else
+        {
+            miAnimator.SetBool("IsMoving", false);
+        }
     }
     private void FixedUpdate()
     {
