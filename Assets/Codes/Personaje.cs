@@ -4,33 +4,32 @@ using UnityEngine;
 
 public class Mover : MonoBehaviour
 {
-    // Variables a configurar desde el editor
     [Header("Configuracion")]
     [SerializeField] float velocidad = 5f;
 
-    // Variables de uso interno en el script
     private float moverHorizontal;
     private float moverVertical;
     private Vector2 direccion;
 
-    // Variable para referenciar otro componente del objeto
     private Rigidbody2D miRigidbody2D;
     private Animator miAnimator;
+    public AudioSource llaveAudio;
 
-    // Codigo ejecutado cuando el objeto se activa en el nivel
+    private GameObject llaveColisionada;
+    public GameObject VFXLlave;
+
     private void OnEnable()
     {
         miRigidbody2D = GetComponent<Rigidbody2D>();
         miAnimator = GetComponent<Animator>();
     }
 
-    // Codigo ejecutado en cada frame del juego (Intervalo variable)
     private void Update()
     {
         moverHorizontal = Input.GetAxis("Horizontal");
         moverVertical = Input.GetAxis("Vertical");
         direccion = new Vector2(moverHorizontal, moverVertical);
-        // Actualizar los parámetros del Animator para las transiciones
+
         // Actualizar los parámetros del Animator
         if (direccion.magnitude > 0.1f)
         {
@@ -43,8 +42,36 @@ public class Mover : MonoBehaviour
             miAnimator.SetBool("IsMoving", false);
         }
     }
+
     private void FixedUpdate()
     {
         miRigidbody2D.MovePosition(miRigidbody2D.position + direccion * (velocidad * Time.fixedDeltaTime));
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Llave"))
+        {
+            Debug.Log("Colisionó con la llave");
+
+            AudioSource llaveAudio = collision.gameObject.GetComponent<AudioSource>();
+
+            if (llaveAudio != null)
+            {
+                llaveAudio.Play();
+            }
+
+            llaveColisionada = collision.gameObject;
+            Invoke("DesactivarLlave", 1f);
+        }
+    }
+
+    void DesactivarLlave()
+    {
+        if (llaveColisionada != null && llaveColisionada.CompareTag("Llave"))
+        {
+            llaveColisionada.SetActive(false);
+            VFXLlave.SetActive(false);
+        }
     }
 }

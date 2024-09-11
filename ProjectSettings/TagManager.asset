@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Llave
   layers:
   - Default
   - TransparentFX
@@ -61,4 +62,7 @@ TagManager:
     locked: 0
   - name: Enemy
     uniqueID: 3085073189
+    locked: 0
+  - name: Llave
+    uniqueID: 3278476629
     locked: 0
