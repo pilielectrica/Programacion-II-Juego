@@ -42,6 +42,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: subpiso
+    uniqueID: 4082934497
+    locked: 0
   - name: Campo
     uniqueID: 281246591
     locked: 0
