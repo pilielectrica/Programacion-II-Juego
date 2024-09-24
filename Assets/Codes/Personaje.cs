@@ -23,6 +23,11 @@ public class Mover : MonoBehaviour
 
     private GameObject llaveColisionada;
     public GameObject VFXLlave;
+    private bool tieneLlave = false; // Variable para saber si el personaje tiene la llave
+
+    [Header("Puerta")]
+    public GameObject puerta;
+    public Vector3 posicionVictoria; // Posición a la que se moverá el personaje al ganar
 
     private void OnEnable()
     {
@@ -82,6 +87,7 @@ public class Mover : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        // Detectar colisión con la llave
         if (collision.gameObject.CompareTag("Llave"))
         {
             Debug.Log("Colisionó con la llave");
@@ -95,6 +101,22 @@ public class Mover : MonoBehaviour
 
             llaveColisionada = collision.gameObject;
             Invoke("DesactivarLlave", 1f);
+            tieneLlave = true; // Marcar que el personaje tiene la llave
+        }
+
+        // Detectar colisión con la puerta
+        if (collision.gameObject.CompareTag("Door"))
+        {
+            if (tieneLlave)
+            {
+                Debug.Log("¡Ganaste!");
+                // Mover el personaje a la posición de victoria
+                miRigidbody2D.transform.position = posicionVictoria;
+            }
+            else
+            {
+                Debug.Log("Necesitas la llave para abrir la puerta.");
+            }
         }
     }
 
@@ -103,7 +125,7 @@ public class Mover : MonoBehaviour
         if (llaveColisionada != null && llaveColisionada.CompareTag("Llave"))
         {
             llaveColisionada.SetActive(false);
-            VFXLlave.SetActive(false);
+            VFXLlave.SetActive(false); // Opcional: desactivar efectos visuales de la llave
         }
     }
 }
