@@ -8171,6 +8171,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 4, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 6
+      m_TileSpriteIndex: 7
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 8, y: -2, z: 0}
     second:
       serializedVersion: 2
@@ -8615,7 +8625,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 16
+  - m_RefCount: 17
     m_Data: {fileID: 11400000, guid: f8ccad89940b5fd4599b70d72f92bf9d, type: 2}
   - m_RefCount: 9
     m_Data: {fileID: 11400000, guid: d9216fcdbc07831439d5287fd43d1159, type: 2}
@@ -8636,12 +8646,12 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 16
+  - m_RefCount: 17
     m_Data: {fileID: -1140457377, guid: 41574c7c515d79f499d125ac3d26242c, type: 3}
   - m_RefCount: 50
     m_Data: {fileID: 1103641604, guid: caf3f1fb4b4731c468567d9c13a54a0d, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 32
+  - m_RefCount: 33
     m_Data:
       e00: 1
       e01: 0
@@ -8750,7 +8760,7 @@ Tilemap:
       e32: 1e-45
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 66
+  - m_RefCount: 67
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   - m_RefCount: 0
     m_Data: {r: NaN, g: NaN, b: NaN, a: NaN}
@@ -8860,9 +8870,9 @@ CompositeCollider2D:
       - X: 42500000
         Y: 23100000
       - X: 42500000
-        Y: -14400001
+        Y: -19400000
       - X: 47500000
-        Y: -14400001
+        Y: -19400000
     - - X: -80000000
         Y: 599999
       - X: -90000000
@@ -8904,8 +8914,8 @@ CompositeCollider2D:
       - {x: -8, y: -3.9399705}
       - {x: -7.9999704, y: 2.31}
       - {x: 4.25, y: 2.3099706}
-      - {x: 4.250029, y: -1.4400002}
-      - {x: 4.75, y: -1.4399709}
+      - {x: 4.250029, y: -1.94}
+      - {x: 4.75, y: -1.9399709}
       - {x: 4.749971, y: 2.86}
       - {x: 4.25, y: 2.8599703}
       - {x: 4.2499704, y: 2.81}
