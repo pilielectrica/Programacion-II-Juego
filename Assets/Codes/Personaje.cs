@@ -29,6 +29,9 @@ public class Mover : MonoBehaviour
     public GameObject puerta;
     public Vector3 posicionVictoria; // Posición a la que se moverá el personaje al ganar
 
+    [Header("Posiciones")]
+    public Vector3 posicionInicial; // Posición inicial a la que el personaje volverá al perder
+
     private void OnEnable()
     {
         miRigidbody2D = GetComponent<Rigidbody2D>();
@@ -109,7 +112,7 @@ public class Mover : MonoBehaviour
         {
             if (tieneLlave)
             {
-                Debug.Log("¡Ganaste!");
+                Debug.Log("¡Ganaste! Has abierto la puerta.");
                 // Mover el personaje a la posición de victoria
                 miRigidbody2D.transform.position = posicionVictoria;
             }
@@ -117,6 +120,14 @@ public class Mover : MonoBehaviour
             {
                 Debug.Log("Necesitas la llave para abrir la puerta.");
             }
+        }
+
+        // Detectar colisión con el enemigo
+        if (collision.gameObject.CompareTag("Enemigo"))
+        {
+            Debug.Log("¡Perdiste! Colisionaste con el enemigo.");
+            // Mover el personaje a la posición inicial
+            miRigidbody2D.transform.position = posicionInicial;
         }
     }
 
