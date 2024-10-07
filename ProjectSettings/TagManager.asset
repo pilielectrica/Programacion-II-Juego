@@ -72,3 +72,6 @@ TagManager:
   - name: Llave
     uniqueID: 3278476629
     locked: 0
+  - name: Hada
+    uniqueID: 4126178959
+    locked: 0
