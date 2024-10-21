@@ -5,6 +5,7 @@ public class Victoria : MonoBehaviour
     public GameObject character; // Referencia al GameObject del personaje
     public Vector3 winPosition; // Posición a la que se moverá el personaje al ganar
     private bool hasKey = false; // Variable para rastrear si se tiene la llave
+    public int experienceValue;
 
     private void OnColissionEnter2D(Collider2D collision)
     {
@@ -13,6 +14,7 @@ public class Victoria : MonoBehaviour
         {
             Debug.Log("Has recogido la llave.");
             hasKey = true; // Marcar que se ha recogido la llave
+
     
         }
 
@@ -21,6 +23,10 @@ public class Victoria : MonoBehaviour
         { Debug.Log("puerta tocada");
             if (hasKey)
             {
+                // Asume que el jugador es el único que puede destruir enemigos
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        PlayerProgression playerProgression = player.GetComponent<PlayerProgression>();
+        playerProgression.GainExperience(experienceValue);
                 Debug.Log("¡Ganaste!");
                 character.transform.position = winPosition; // Mover el personaje a la posición de victoria
             }

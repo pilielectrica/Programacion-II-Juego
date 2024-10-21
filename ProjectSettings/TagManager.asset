@@ -51,6 +51,9 @@ TagManager:
   - name: Campo
     uniqueID: 281246591
     locked: 0
+  - name: Door
+    uniqueID: 2068701249
+    locked: 0
   - name: Walls
     uniqueID: 1338739487
     locked: 0
