@@ -171,6 +171,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &98284443 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5709990202345456837, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+  m_PrefabInstance: {fileID: 1206254564}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &180931233
 GameObject:
   m_ObjectHideFlags: 0
@@ -8107,6 +8112,67 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1206254564
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709990202345456837, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_Name
+      value: Hada1 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7109310788464824466, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: alRecolectarHada.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1215813454}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
 --- !u!1 &1215813451
 GameObject:
   m_ObjectHideFlags: 0
@@ -8137,7 +8203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 024df7aa05371f2448526aed1f6748cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objetoPrefab: {fileID: 5709990202345456837, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+  objetoPrefab: {fileID: 98284443}
   sistemaParticulasPrefab: {fileID: 1628385980937999617, guid: aed231e17f2026746911f95eeb9407e2, type: 3}
   tiempoEspera: 5
   tiempoIntervalo: 5
@@ -8169,7 +8235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fairyCounterTMP: {fileID: 547215460}
-  fairyCount: 1
+  fairyCount: 0
 --- !u!1 &1232754283
 GameObject:
   m_ObjectHideFlags: 0
@@ -18782,6 +18848,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3846657800446404951, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_text
+      value: '0
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 5903271487770201298, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
       propertyPath: m_Name
       value: ContadorDeHadasText
@@ -18811,6 +18883,7 @@ SceneRoots:
   - {fileID: 681639302}
   - {fileID: 416943222}
   - {fileID: 88494112}
+  - {fileID: 1206254564}
   - {fileID: 1215813453}
   - {fileID: 1789354283}
   - {fileID: 381495950}
