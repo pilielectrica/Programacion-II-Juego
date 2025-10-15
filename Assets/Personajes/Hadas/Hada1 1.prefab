@@ -144,7 +144,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea59d82db9e4c024e80d68e1d1368d9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HadaRecolectadaAudioSource: {fileID: -8663497979081178695}
+  alRecolectarHada:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -8487782996494070758, guid: c864e65a19e3d7741a5f4308f6f91979, type: 3}
+        m_TargetAssemblyTypeName: ContadorDeHadas, Assembly-CSharp
+        m_MethodName: ActualizarContador
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hadaAudioClip: {fileID: 8300000, guid: 9247c092cf61ad3458f83155b13b7287, type: 3}
 --- !u!82 &-8663497979081178695
 AudioSource:

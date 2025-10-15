@@ -1,29 +1,34 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Hada : MonoBehaviour
 {
-    public AudioSource HadaRecolectadaAudioSource;
+    [Header("Evento que se dispara al recolectar un hada")]
+    [SerializeField] public UnityEvent alRecolectarHada;
+
+    [Header("Audio del hada")]
     public AudioClip hadaAudioClip;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
-        {
-            // Llama al método CollectFairy() del contador
-            FindObjectOfType<ContadorDeHadas>().CollectFairy();
-            
-            // Crear un objeto temporal solo para el sonido
+        { Debug.Log("Hada: disparando evento");
+            // 🔔 Lanza el evento al recolectar
+            alRecolectarHada.Invoke();
+
+            // 🎵 Reproduce sonido
             GameObject audioObject = new GameObject("FairySound");
             AudioSource audioSource = audioObject.AddComponent<AudioSource>();
             audioSource.clip = hadaAudioClip;
             audioSource.Play();
-            
-            // Destruir el objeto de sonido después de que termine la reproducción
             Destroy(audioObject, hadaAudioClip.length);
-            
-            // Destruir el objeto hada inmediatamente
+
+            // 🧚‍♀️ Destruye el hada
             Destroy(gameObject);
         }
     }
 }
+
+
+
 
