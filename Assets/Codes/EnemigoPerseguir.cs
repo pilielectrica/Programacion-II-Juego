@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class EnemigoIA : MonoBehaviour
 {
-    // Variables a configurar desde el editor
     [Header("Configuracion")]
-    [SerializeField] float velocidad = 5f;
+    [SerializeField] private float velocidad = 5f;
 
-    // Referencia al transform del jugador serializada
-    [SerializeField] Transform jugador;
+    [Header("Detección")]
+    [SerializeField] private Transform jugador;
+    [SerializeField] private float rangoDeteccion = 5f; // distancia a la que el enemigo empieza a seguir
 
-    // Variable para referenciar otro componente del objeto
     private Rigidbody2D miRigidbody2D;
     private Vector2 direccion;
 
@@ -22,8 +21,24 @@ public class EnemigoIA : MonoBehaviour
 
     private void FixedUpdate()
     {
-        direccion = (jugador.position - transform.position).normalized;
-        miRigidbody2D.MovePosition(miRigidbody2D.position + direccion * (velocidad * Time.fixedDeltaTime));
+        // Calcular distancia al jugador
+        float distancia = Vector2.Distance(transform.position, jugador.position);
+
+        if (distancia <= rangoDeteccion)
+        {
+            // Solo moverse si está dentro del rango
+            direccion = (jugador.position - transform.position).normalized;
+            miRigidbody2D.MovePosition(miRigidbody2D.position + direccion * (velocidad * Time.fixedDeltaTime));
+        }
     }
 
+    // Opcional: dibujar el rango de detección en el editor
+    private void OnDrawGizmosSelected()
+    {
+        if (jugador != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position, rangoDeteccion);
+        }
+    }
 }

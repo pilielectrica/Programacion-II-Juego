@@ -78,3 +78,9 @@ TagManager:
   - name: Hada
     uniqueID: 4126178959
     locked: 0
+  - name: Coleccionable
+    uniqueID: 2836749849
+    locked: 0
+  - name: Arboles
+    uniqueID: 3185773957
+    locked: 0
