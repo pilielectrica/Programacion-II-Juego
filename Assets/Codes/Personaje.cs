@@ -31,7 +31,7 @@ public class Mover : MonoBehaviour
 
     [Header("Posiciones")]
     public Vector3 posicionInicial; // Posición inicial a la que el personaje volverá al perder
-     public int experienceValue;
+    public int experienceValue;
 
     private void OnEnable()
     {
@@ -95,9 +95,7 @@ public class Mover : MonoBehaviour
         if (collision.gameObject.CompareTag("Llave"))
         {
             Debug.Log("Colisionó con la llave");
-
             AudioSource llaveAudio = collision.gameObject.GetComponent<AudioSource>();
-
             if (llaveAudio != null)
             {
                 llaveAudio.Play();
@@ -114,8 +112,9 @@ public class Mover : MonoBehaviour
             if (tieneLlave)
             {
                 GameObject player = GameObject.FindGameObjectWithTag("Player");
-        PlayerProgression playerProgression = player.GetComponent<PlayerProgression>();
-        playerProgression.GainExperience(experienceValue);
+                PlayerProgression playerProgression = player.GetComponent<PlayerProgression>();
+                playerProgression.GainExperience(experienceValue);
+
                 Debug.Log("¡Ganaste! Has abierto la puerta.");
                 // Mover el personaje a la posición de victoria
                 miRigidbody2D.transform.position = posicionVictoria;
