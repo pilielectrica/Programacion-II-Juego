@@ -1,19 +1,31 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class GeneradorObjetoLoop : MonoBehaviour
 {
+    [Header("Tilemap del campo")]
+    [SerializeField] private Tilemap tilemapCampo; // El Tilemap donde hay pasto
+    [SerializeField] private TileBase tileValido;  // Tile que permite spawn (pasto)
+
     [Header("Prefabs o referencias en escena")]
-    [SerializeField] private GameObject objetoPrefab;
-    [SerializeField] private GameObject sistemaParticulasPrefab;
+    [SerializeField] private GameObject objetoPrefab;          // Hada u objeto
+    [SerializeField] private GameObject sistemaParticulasPrefab; // Efecto de partículas
 
     [Header("Tiempos")]
-    [SerializeField, Range(0.5f, 5f)] private float tiempoEspera = 1f;
-    [SerializeField, Range(0.5f, 5f)] private float tiempoIntervalo = 1f;
+    [SerializeField, Range(0.5f, 10f)] private float tiempoEspera = 1f;
+    [SerializeField, Range(0.5f, 10f)] private float tiempoIntervalo = 1f;
+    
 
-    void Start()
+
+[Header("Duración del objeto")]
+[SerializeField, Range(0.5f, 20f)] private float duracionObjeto = 2f;
+
+
+    private void Start()
     {
-        // ✅ Si los objetos son de la escena, se hace una copia inactiva para usarla como plantilla
+        // ✅ Crear copias inactivas si los objetos vienen de la escena
         if (objetoPrefab != null && objetoPrefab.scene.IsValid())
         {
             GameObject copia = Instantiate(objetoPrefab);
@@ -28,32 +40,47 @@ public class GeneradorObjetoLoop : MonoBehaviour
             sistemaParticulasPrefab = copiaParticulas;
         }
 
-        InvokeRepeating(nameof(GenerarObjetoLoop), tiempoEspera, tiempoIntervalo);
+        InvokeRepeating(nameof(GenerarObjetoLoopMethod), tiempoEspera, tiempoIntervalo);
     }
 
-    void GenerarObjetoLoop()
+    private void GenerarObjetoLoopMethod()
     {
-        if (objetoPrefab == null || sistemaParticulasPrefab == null)
+        if (tilemapCampo == null || tileValido == null || objetoPrefab == null || sistemaParticulasPrefab == null)
         {
             Debug.LogError("❌ Prefabs o referencias no asignadas en GeneradorObjetoLoop.", this);
             return;
         }
 
-        // Generar posición aleatoria
-        float posX = Random.Range(-7f, 7f);
-        float posY = Random.Range(-3.36f, 3.66f);
-        Vector3 posicionAleatoria = new Vector3(posX, posY, 0f);
+        // Obtener todas las celdas del Tilemap
+        BoundsInt bounds = tilemapCampo.cellBounds;
+        List<Vector3> celdasValidas = new List<Vector3>();
 
-        // Instanciar desde las copias desactivadas
-        GameObject objetoGenerado = Instantiate(objetoPrefab, posicionAleatoria, Quaternion.identity);
+        foreach (Vector3Int pos in bounds.allPositionsWithin)
+        {
+            TileBase tile = tilemapCampo.GetTile(pos);
+            if (tile == tileValido)
+            {
+                // Guardar la posición central del tile
+                celdasValidas.Add(tilemapCampo.GetCellCenterWorld(pos));
+            }
+        }
+
+        if (celdasValidas.Count == 0) return;
+
+        // Elegir aleatoriamente una celda válida
+        Vector3 spawnPos = celdasValidas[Random.Range(0, celdasValidas.Count)];
+
+        // Instanciar objeto y partículas
+        GameObject objetoGenerado = Instantiate(objetoPrefab, spawnPos, Quaternion.identity);
         objetoGenerado.SetActive(true);
 
-        GameObject particulasGeneradas = Instantiate(sistemaParticulasPrefab, posicionAleatoria, Quaternion.identity);
+        GameObject particulasGeneradas = Instantiate(sistemaParticulasPrefab, spawnPos, Quaternion.identity);
         particulasGeneradas.SetActive(true);
 
         // Desaparecer ambos después de 2 segundos
-        StartCoroutine(DesaparecerObjeto(objetoGenerado, 2f));
-        StartCoroutine(DesaparecerObjeto(particulasGeneradas, 2f));
+        StartCoroutine(DesaparecerObjeto(objetoGenerado, duracionObjeto));
+StartCoroutine(DesaparecerObjeto(particulasGeneradas, duracionObjeto));
+
     }
 
     private IEnumerator DesaparecerObjeto(GameObject objeto, float tiempo)
@@ -63,8 +90,8 @@ public class GeneradorObjetoLoop : MonoBehaviour
             Destroy(objeto);
     }
 
-    void OnDestroy()
+    private void OnDestroy()
     {
-        CancelInvoke(nameof(GenerarObjetoLoop));
+        CancelInvoke(nameof(GenerarObjetoLoopMethod));
     }
 }

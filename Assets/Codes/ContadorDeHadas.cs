@@ -1,18 +1,49 @@
 using UnityEngine;
 using UnityEngine.Events;
 using TMPro;
+
 public class ContadorDeHadas : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI fairyCounterTMP;
 
-    public int fairyCount = 0;
+    [Header("Contador")]
+    public int fairyCount = 0;  // Cargas actuales
     private int _fairyCount;
+
+    [Header("Evento cuando se recoge un hada")]
+    public UnityEvent onFairyCollected;
+
+    [Header("Evento cuando se dispara un proyectil")]
+    public UnityEvent onFairyUsed;
+
+    // Se llama al recolectar un hada
     public void ActualizarContador()
-    {Debug.Log ("el contador de hadas va: "+ fairyCount);
+    {
         fairyCount++;
+        ActualizarTexto();
+
+        Debug.Log("El contador de hadas va: " + fairyCount);
+
+        // Disparar evento de recolectar
+        onFairyCollected?.Invoke();
+    }
+
+    // Se llama al disparar un proyectil / usar un hada
+    public void UsarHada(int cantidad = 1)
+    {
+        fairyCount = Mathf.Max(fairyCount - cantidad, 0);
+        ActualizarTexto();
+
+        Debug.Log("Hadass usadas. Quedan: " + fairyCount);
+
+        // Disparar evento de usar hada
+        onFairyUsed?.Invoke();
+    }
+
+    private void ActualizarTexto()
+    {
         _fairyCount = fairyCount;
-        fairyCounterTMP.text = _fairyCount.ToString();
-        
+        if (fairyCounterTMP != null)
+            fairyCounterTMP.text = _fairyCount.ToString();
     }
 }
-

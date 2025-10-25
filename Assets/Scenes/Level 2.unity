@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 5256306}
   - component: {fileID: 5256305}
   - component: {fileID: 5256304}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 12277128}
   - component: {fileID: 12277127}
   - component: {fileID: 12277126}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -402,7 +402,7 @@ GameObject:
   - component: {fileID: 15185014}
   - component: {fileID: 15185013}
   - component: {fileID: 15185012}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (175)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -536,7 +536,7 @@ GameObject:
   - component: {fileID: 16425824}
   - component: {fileID: 16425823}
   - component: {fileID: 16425822}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -552,7 +552,7 @@ Transform:
   m_GameObject: {fileID: 16425820}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.37, y: -0.11, z: -1.3011626}
+  m_LocalPosition: {x: 9.44, y: -0.11, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -670,7 +670,7 @@ GameObject:
   - component: {fileID: 24790569}
   - component: {fileID: 24790568}
   - component: {fileID: 24790567}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (129)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -686,7 +686,7 @@ Transform:
   m_GameObject: {fileID: 24790565}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.74, y: 2.69, z: -1.3011626}
+  m_LocalPosition: {x: -2.74, y: 2.563, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -804,7 +804,7 @@ GameObject:
   - component: {fileID: 48645798}
   - component: {fileID: 48645797}
   - component: {fileID: 48645796}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -938,7 +938,7 @@ GameObject:
   - component: {fileID: 50607180}
   - component: {fileID: 50607179}
   - component: {fileID: 50607178}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (187)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1072,7 +1072,7 @@ GameObject:
   - component: {fileID: 76759650}
   - component: {fileID: 76759649}
   - component: {fileID: 76759648}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (200)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1194,140 +1194,71 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &118423361
-GameObject:
+--- !u!1001 &123148040
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 118423362}
-  - component: {fileID: 118423365}
-  - component: {fileID: 118423364}
-  - component: {fileID: 118423363}
-  m_Layer: 0
-  m_Name: jungle-tree (68)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &118423362
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 118423361}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.47, y: 3.62, z: -1.3011626}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1892361721}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &118423363
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 118423361}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.011159539, y: 0.16004586}
-  m_Size: {x: 0.3200915, y: 0.32009172}
-  m_Direction: 0
---- !u!114 &118423364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 118423361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 242211ccb78a6e24dba008e76783df6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sortingOffset: -1
---- !u!212 &118423365
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 118423361}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1010225813
-  m_SortingLayer: 8
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93b51c1194a56a64dad944804c2f29ab, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709990202345456837, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_Name
+      value: Hada1 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709990202345456837, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7109310788464824466, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: alRecolectarHada.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344544063}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
 --- !u!1 &130401639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1371,7 +1302,7 @@ GameObject:
   - component: {fileID: 134040452}
   - component: {fileID: 134040451}
   - component: {fileID: 134040450}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (205)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1536,7 +1467,7 @@ GameObject:
   - component: {fileID: 150846842}
   - component: {fileID: 150846841}
   - component: {fileID: 150846840}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (150)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1670,7 +1601,7 @@ GameObject:
   - component: {fileID: 152490974}
   - component: {fileID: 152490973}
   - component: {fileID: 152490972}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2012,7 +1943,7 @@ GameObject:
   - component: {fileID: 160665758}
   - component: {fileID: 160665757}
   - component: {fileID: 160665756}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (83)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2146,7 +2077,7 @@ GameObject:
   - component: {fileID: 176485509}
   - component: {fileID: 176485508}
   - component: {fileID: 176485507}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (138)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2280,7 +2211,7 @@ GameObject:
   - component: {fileID: 185640105}
   - component: {fileID: 185640104}
   - component: {fileID: 185640103}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (140)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2414,7 +2345,7 @@ GameObject:
   - component: {fileID: 189840009}
   - component: {fileID: 189840008}
   - component: {fileID: 189840007}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100320,7 +100251,7 @@ GameObject:
   - component: {fileID: 247066290}
   - component: {fileID: 247066289}
   - component: {fileID: 247066288}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100336,7 +100267,7 @@ Transform:
   m_GameObject: {fileID: 247066286}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.48, y: -1.31, z: -1.3011626}
+  m_LocalPosition: {x: 6.41, y: -1.38, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -100454,7 +100385,7 @@ GameObject:
   - component: {fileID: 257862123}
   - component: {fileID: 257862122}
   - component: {fileID: 257862121}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100588,7 +100519,7 @@ GameObject:
   - component: {fileID: 259358283}
   - component: {fileID: 259358282}
   - component: {fileID: 259358281}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (184)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100722,7 +100653,7 @@ GameObject:
   - component: {fileID: 259916364}
   - component: {fileID: 259916363}
   - component: {fileID: 259916362}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100856,7 +100787,7 @@ GameObject:
   - component: {fileID: 261301607}
   - component: {fileID: 261301606}
   - component: {fileID: 261301605}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100990,7 +100921,7 @@ GameObject:
   - component: {fileID: 265663696}
   - component: {fileID: 265663695}
   - component: {fileID: 265663694}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (107)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101124,7 +101055,7 @@ GameObject:
   - component: {fileID: 275764506}
   - component: {fileID: 275764505}
   - component: {fileID: 275764504}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (167)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101258,7 +101189,7 @@ GameObject:
   - component: {fileID: 282556579}
   - component: {fileID: 282556578}
   - component: {fileID: 282556577}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (157)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101392,7 +101323,7 @@ GameObject:
   - component: {fileID: 299910709}
   - component: {fileID: 299910708}
   - component: {fileID: 299910707}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (173)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101526,7 +101457,7 @@ GameObject:
   - component: {fileID: 302791622}
   - component: {fileID: 302791621}
   - component: {fileID: 302791620}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (78)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101660,7 +101591,7 @@ GameObject:
   - component: {fileID: 320455116}
   - component: {fileID: 320455115}
   - component: {fileID: 320455114}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (145)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101676,7 +101607,7 @@ Transform:
   m_GameObject: {fileID: 320455112}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: 1.08, z: -1.3011626}
+  m_LocalPosition: {x: 8.3, y: 1.08, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -101794,7 +101725,7 @@ GameObject:
   - component: {fileID: 324335634}
   - component: {fileID: 324335633}
   - component: {fileID: 324335632}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101928,7 +101859,7 @@ GameObject:
   - component: {fileID: 328822628}
   - component: {fileID: 328822627}
   - component: {fileID: 328822626}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (158)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102062,7 +101993,7 @@ GameObject:
   - component: {fileID: 331615702}
   - component: {fileID: 331615701}
   - component: {fileID: 331615700}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102078,7 +102009,7 @@ Transform:
   m_GameObject: {fileID: 331615698}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.52, y: 3.62, z: -1.3011626}
+  m_LocalPosition: {x: 8.33, y: 3.62, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -102197,7 +102128,7 @@ GameObject:
   - component: {fileID: 342987582}
   - component: {fileID: 342987581}
   - component: {fileID: 342987580}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: palmtree (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102369,7 +102300,7 @@ GameObject:
   - component: {fileID: 346278266}
   - component: {fileID: 346278265}
   - component: {fileID: 346278264}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102503,7 +102434,7 @@ GameObject:
   - component: {fileID: 357787261}
   - component: {fileID: 357787260}
   - component: {fileID: 357787259}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (84)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102637,7 +102568,7 @@ GameObject:
   - component: {fileID: 372714338}
   - component: {fileID: 372714337}
   - component: {fileID: 372714336}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (106)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102771,7 +102702,7 @@ GameObject:
   - component: {fileID: 374626173}
   - component: {fileID: 374626172}
   - component: {fileID: 374626171}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (118)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102905,7 +102836,7 @@ GameObject:
   - component: {fileID: 377010962}
   - component: {fileID: 377010961}
   - component: {fileID: 377010960}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (93)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103041,7 +102972,7 @@ GameObject:
   - component: {fileID: 377971956}
   - component: {fileID: 377971960}
   - component: {fileID: 377971959}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: palmtree (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103226,7 +103157,7 @@ GameObject:
   - component: {fileID: 378904856}
   - component: {fileID: 378904855}
   - component: {fileID: 378904854}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (162)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103360,7 +103291,7 @@ GameObject:
   - component: {fileID: 383706648}
   - component: {fileID: 383706647}
   - component: {fileID: 383706646}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (133)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103376,7 +103307,7 @@ Transform:
   m_GameObject: {fileID: 383706644}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.78, y: 2.69, z: -1.3011626}
+  m_LocalPosition: {x: -5.78, y: 2.602, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -103494,7 +103425,7 @@ GameObject:
   - component: {fileID: 389522704}
   - component: {fileID: 389522703}
   - component: {fileID: 389522702}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (121)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103510,7 +103441,7 @@ Transform:
   m_GameObject: {fileID: 389522700}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.51, y: 2.69, z: -1.3011626}
+  m_LocalPosition: {x: 1.51, y: 2.64, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -103628,7 +103559,7 @@ GameObject:
   - component: {fileID: 391266601}
   - component: {fileID: 391266600}
   - component: {fileID: 391266599}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (90)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103881,7 +103812,7 @@ GameObject:
   - component: {fileID: 414147038}
   - component: {fileID: 414147037}
   - component: {fileID: 414147036}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (209)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104015,7 +103946,7 @@ GameObject:
   - component: {fileID: 445589677}
   - component: {fileID: 445589676}
   - component: {fileID: 445589675}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: big-jungle-tree (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104149,7 +104080,7 @@ GameObject:
   - component: {fileID: 447624399}
   - component: {fileID: 447624398}
   - component: {fileID: 447624397}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (180)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104283,7 +104214,7 @@ GameObject:
   - component: {fileID: 451147293}
   - component: {fileID: 451147292}
   - component: {fileID: 451147291}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104417,7 +104348,7 @@ GameObject:
   - component: {fileID: 485171278}
   - component: {fileID: 485171277}
   - component: {fileID: 485171276}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (115)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104551,7 +104482,7 @@ GameObject:
   - component: {fileID: 501113925}
   - component: {fileID: 501113924}
   - component: {fileID: 501113923}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (166)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104685,7 +104616,7 @@ GameObject:
   - component: {fileID: 501956217}
   - component: {fileID: 501956216}
   - component: {fileID: 501956215}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104819,7 +104750,7 @@ GameObject:
   - component: {fileID: 509158515}
   - component: {fileID: 509158514}
   - component: {fileID: 509158513}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (202)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105107,7 +105038,7 @@ GameObject:
   - component: {fileID: 535962981}
   - component: {fileID: 535962980}
   - component: {fileID: 535962979}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (98)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105241,7 +105172,7 @@ GameObject:
   - component: {fileID: 541506743}
   - component: {fileID: 541506742}
   - component: {fileID: 541506741}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (119)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105375,7 +105306,7 @@ GameObject:
   - component: {fileID: 561963568}
   - component: {fileID: 561963567}
   - component: {fileID: 561963566}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (192)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105509,7 +105440,7 @@ GameObject:
   - component: {fileID: 563551649}
   - component: {fileID: 563551648}
   - component: {fileID: 563551647}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (110)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105643,7 +105574,7 @@ GameObject:
   - component: {fileID: 576777397}
   - component: {fileID: 576777396}
   - component: {fileID: 576777395}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (211)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105777,7 +105708,7 @@ GameObject:
   - component: {fileID: 579989489}
   - component: {fileID: 579989488}
   - component: {fileID: 579989487}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (105)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105911,7 +105842,7 @@ GameObject:
   - component: {fileID: 593702879}
   - component: {fileID: 593702878}
   - component: {fileID: 593702877}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106046,7 +105977,7 @@ GameObject:
   - component: {fileID: 597514231}
   - component: {fileID: 597514230}
   - component: {fileID: 597514233}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: palmtree (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106218,7 +106149,7 @@ GameObject:
   - component: {fileID: 606783444}
   - component: {fileID: 606783443}
   - component: {fileID: 606783442}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106352,7 +106283,7 @@ GameObject:
   - component: {fileID: 609359117}
   - component: {fileID: 609359116}
   - component: {fileID: 609359115}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (212)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106486,7 +106417,7 @@ GameObject:
   - component: {fileID: 626139376}
   - component: {fileID: 626139375}
   - component: {fileID: 626139374}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (100)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106621,7 +106552,7 @@ GameObject:
   - component: {fileID: 627693502}
   - component: {fileID: 627693501}
   - component: {fileID: 627693504}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: palmtree (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106793,7 +106724,7 @@ GameObject:
   - component: {fileID: 637514900}
   - component: {fileID: 637514899}
   - component: {fileID: 637514898}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (176)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106958,7 +106889,7 @@ GameObject:
   - component: {fileID: 642396390}
   - component: {fileID: 642396389}
   - component: {fileID: 642396388}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (79)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107103,6 +107034,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fuerzaDisparo: 10
+--- !u!114 &643458174 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7927562234127617000, guid: a562bcb9551d8904d8b8aee8ee8bbe94, type: 3}
+  m_PrefabInstance: {fileID: 1655203951}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643458168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 919db2c3a2cf70b46a41bc1179557415, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &646452695
 GameObject:
   m_ObjectHideFlags: 0
@@ -107115,7 +107057,7 @@ GameObject:
   - component: {fileID: 646452699}
   - component: {fileID: 646452698}
   - component: {fileID: 646452697}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107249,7 +107191,7 @@ GameObject:
   - component: {fileID: 653847695}
   - component: {fileID: 653847694}
   - component: {fileID: 653847693}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (165)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107383,7 +107325,7 @@ GameObject:
   - component: {fileID: 663371117}
   - component: {fileID: 663371116}
   - component: {fileID: 663371115}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (111)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107517,7 +107459,7 @@ GameObject:
   - component: {fileID: 707848871}
   - component: {fileID: 707848870}
   - component: {fileID: 707848869}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (134)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107651,7 +107593,7 @@ GameObject:
   - component: {fileID: 737006041}
   - component: {fileID: 737006040}
   - component: {fileID: 737006039}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (88)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107785,7 +107727,7 @@ GameObject:
   - component: {fileID: 744054674}
   - component: {fileID: 744054673}
   - component: {fileID: 744054672}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: big-jungle-tree (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107919,7 +107861,7 @@ GameObject:
   - component: {fileID: 752735366}
   - component: {fileID: 752735365}
   - component: {fileID: 752735364}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108053,7 +107995,7 @@ GameObject:
   - component: {fileID: 752858506}
   - component: {fileID: 752858505}
   - component: {fileID: 752858504}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (92)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108187,7 +108129,7 @@ GameObject:
   - component: {fileID: 752993046}
   - component: {fileID: 752993045}
   - component: {fileID: 752993044}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (210)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108321,7 +108263,7 @@ GameObject:
   - component: {fileID: 762424729}
   - component: {fileID: 762424728}
   - component: {fileID: 762424727}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (183)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108455,7 +108397,7 @@ GameObject:
   - component: {fileID: 779312165}
   - component: {fileID: 779312164}
   - component: {fileID: 779312163}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (109)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108589,7 +108531,7 @@ GameObject:
   - component: {fileID: 779802000}
   - component: {fileID: 779801999}
   - component: {fileID: 779801998}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (198)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108723,7 +108665,7 @@ GameObject:
   - component: {fileID: 783271630}
   - component: {fileID: 783271629}
   - component: {fileID: 783271628}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (182)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108857,7 +108799,7 @@ GameObject:
   - component: {fileID: 792318299}
   - component: {fileID: 792318298}
   - component: {fileID: 792318297}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108992,7 +108934,7 @@ GameObject:
   - component: {fileID: 794858290}
   - component: {fileID: 794858289}
   - component: {fileID: 794858292}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: palmtree (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109164,7 +109106,7 @@ GameObject:
   - component: {fileID: 799969325}
   - component: {fileID: 799969324}
   - component: {fileID: 799969323}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109298,7 +109240,7 @@ GameObject:
   - component: {fileID: 807947440}
   - component: {fileID: 807947439}
   - component: {fileID: 807947438}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (131)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109432,7 +109374,7 @@ GameObject:
   - component: {fileID: 827423176}
   - component: {fileID: 827423175}
   - component: {fileID: 827423174}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (160)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109554,6 +109496,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &828289427 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5709990202345456837, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+  m_PrefabInstance: {fileID: 123148040}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &828833706
 GameObject:
   m_ObjectHideFlags: 0
@@ -109566,7 +109513,7 @@ GameObject:
   - component: {fileID: 828833710}
   - component: {fileID: 828833709}
   - component: {fileID: 828833708}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (114)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109700,7 +109647,7 @@ GameObject:
   - component: {fileID: 829594088}
   - component: {fileID: 829594087}
   - component: {fileID: 829594086}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (179)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109834,7 +109781,7 @@ GameObject:
   - component: {fileID: 831283368}
   - component: {fileID: 831283367}
   - component: {fileID: 831283366}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (148)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109850,7 +109797,7 @@ Transform:
   m_GameObject: {fileID: 831283364}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: -0.21, z: -1.3011626}
+  m_LocalPosition: {x: 8.29, y: -0.36, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -109956,140 +109903,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &831419552
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 831419553}
-  - component: {fileID: 831419556}
-  - component: {fileID: 831419555}
-  - component: {fileID: 831419554}
-  m_Layer: 0
-  m_Name: jungle-tree (17)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &831419553
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 831419552}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.48, y: -0.75, z: -1.3011626}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1892361721}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &831419554
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 831419552}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.011159539, y: 0.16004586}
-  m_Size: {x: 0.3200915, y: 0.32009172}
-  m_Direction: 0
---- !u!114 &831419555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 831419552}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 242211ccb78a6e24dba008e76783df6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sortingOffset: -1
---- !u!212 &831419556
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 831419552}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1010225813
-  m_SortingLayer: 8
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93b51c1194a56a64dad944804c2f29ab, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &835014733
 GameObject:
   m_ObjectHideFlags: 0
@@ -110102,7 +109915,7 @@ GameObject:
   - component: {fileID: 835014737}
   - component: {fileID: 835014736}
   - component: {fileID: 835014735}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110236,7 +110049,7 @@ GameObject:
   - component: {fileID: 846764311}
   - component: {fileID: 846764310}
   - component: {fileID: 846764309}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (91)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110370,7 +110183,7 @@ GameObject:
   - component: {fileID: 860385621}
   - component: {fileID: 860385620}
   - component: {fileID: 860385619}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (80)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110504,7 +110317,7 @@ GameObject:
   - component: {fileID: 862947653}
   - component: {fileID: 862947652}
   - component: {fileID: 862947651}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (125)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110520,7 +110333,7 @@ Transform:
   m_GameObject: {fileID: 862947649}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.25, y: 2.69, z: -1.3011626}
+  m_LocalPosition: {x: -0.25, y: 2.622, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -110638,7 +110451,7 @@ GameObject:
   - component: {fileID: 873958909}
   - component: {fileID: 873958908}
   - component: {fileID: 873958907}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (174)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110773,7 +110586,7 @@ GameObject:
   - component: {fileID: 885409415}
   - component: {fileID: 885409414}
   - component: {fileID: 885409417}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: palmtree (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110945,7 +110758,7 @@ GameObject:
   - component: {fileID: 889798630}
   - component: {fileID: 889798629}
   - component: {fileID: 889798628}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (204)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111079,7 +110892,7 @@ GameObject:
   - component: {fileID: 916883204}
   - component: {fileID: 916883203}
   - component: {fileID: 916883202}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (181)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111214,7 +111027,7 @@ GameObject:
   - component: {fileID: 930863255}
   - component: {fileID: 930863254}
   - component: {fileID: 930863257}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: palmtree (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111387,7 +111200,7 @@ GameObject:
   - component: {fileID: 948160861}
   - component: {fileID: 948160860}
   - component: {fileID: 948160863}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: palmtree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111559,7 +111372,7 @@ GameObject:
   - component: {fileID: 958108141}
   - component: {fileID: 958108140}
   - component: {fileID: 958108139}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (126)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111575,7 +111388,7 @@ Transform:
   m_GameObject: {fileID: 958108137}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.83, y: 2.69, z: -1.3011626}
+  m_LocalPosition: {x: -0.83, y: 2.602, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -111706,7 +111519,7 @@ Transform:
   m_GameObject: {fileID: 962844518}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.028067352, y: -0.02, z: 0}
+  m_LocalPosition: {x: -0.28, y: -0.02, z: 0}
   m_LocalScale: {x: 2.8067353, y: 2.791893, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -111724,7 +111537,7 @@ GameObject:
   - component: {fileID: 966825271}
   - component: {fileID: 966825270}
   - component: {fileID: 966825269}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111858,7 +111671,7 @@ GameObject:
   - component: {fileID: 968127064}
   - component: {fileID: 968127063}
   - component: {fileID: 968127062}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111992,7 +111805,7 @@ GameObject:
   - component: {fileID: 976045662}
   - component: {fileID: 976045661}
   - component: {fileID: 976045660}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: big-jungle-tree (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112126,7 +111939,7 @@ GameObject:
   - component: {fileID: 986242668}
   - component: {fileID: 986242667}
   - component: {fileID: 986242666}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (195)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112260,7 +112073,7 @@ GameObject:
   - component: {fileID: 993208347}
   - component: {fileID: 993208346}
   - component: {fileID: 993208345}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112394,7 +112207,7 @@ GameObject:
   - component: {fileID: 1004418249}
   - component: {fileID: 1004418248}
   - component: {fileID: 1004418247}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112528,7 +112341,7 @@ GameObject:
   - component: {fileID: 1018953834}
   - component: {fileID: 1018953833}
   - component: {fileID: 1018953832}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112662,7 +112475,7 @@ GameObject:
   - component: {fileID: 1020573290}
   - component: {fileID: 1020573289}
   - component: {fileID: 1020573288}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112796,7 +112609,7 @@ GameObject:
   - component: {fileID: 1021419390}
   - component: {fileID: 1021419389}
   - component: {fileID: 1021419388}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (117)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112930,7 +112743,7 @@ GameObject:
   - component: {fileID: 1021717851}
   - component: {fileID: 1021717850}
   - component: {fileID: 1021717849}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: big-jungle-tree (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113064,7 +112877,7 @@ GameObject:
   - component: {fileID: 1025943590}
   - component: {fileID: 1025943589}
   - component: {fileID: 1025943588}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (81)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113198,7 +113011,7 @@ GameObject:
   - component: {fileID: 1032786718}
   - component: {fileID: 1032786717}
   - component: {fileID: 1032786716}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (208)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113332,7 +113145,7 @@ GameObject:
   - component: {fileID: 1036951775}
   - component: {fileID: 1036951774}
   - component: {fileID: 1036951773}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113466,7 +113279,7 @@ GameObject:
   - component: {fileID: 1061597621}
   - component: {fileID: 1061597620}
   - component: {fileID: 1061597619}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (168)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113600,7 +113413,7 @@ GameObject:
   - component: {fileID: 1081085213}
   - component: {fileID: 1081085212}
   - component: {fileID: 1081085211}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (95)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113906,7 +113719,7 @@ GameObject:
   - component: {fileID: 1096336192}
   - component: {fileID: 1096336191}
   - component: {fileID: 1096336190}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (89)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114040,7 +113853,7 @@ GameObject:
   - component: {fileID: 1100504573}
   - component: {fileID: 1100504572}
   - component: {fileID: 1100504571}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (99)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114174,7 +113987,7 @@ GameObject:
   - component: {fileID: 1107207730}
   - component: {fileID: 1107207729}
   - component: {fileID: 1107207728}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114308,7 +114121,7 @@ GameObject:
   - component: {fileID: 1107884394}
   - component: {fileID: 1107884393}
   - component: {fileID: 1107884392}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114442,7 +114255,7 @@ GameObject:
   - component: {fileID: 1111797358}
   - component: {fileID: 1111797357}
   - component: {fileID: 1111797359}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: big-jungle-tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114576,7 +114389,7 @@ GameObject:
   - component: {fileID: 1112388140}
   - component: {fileID: 1112388139}
   - component: {fileID: 1112388138}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (143)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114710,7 +114523,7 @@ GameObject:
   - component: {fileID: 1122411793}
   - component: {fileID: 1122411792}
   - component: {fileID: 1122411791}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (201)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114844,7 +114657,7 @@ GameObject:
   - component: {fileID: 1124398873}
   - component: {fileID: 1124398872}
   - component: {fileID: 1124398871}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (96)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114978,7 +114791,7 @@ GameObject:
   - component: {fileID: 1126435650}
   - component: {fileID: 1126435649}
   - component: {fileID: 1126435648}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (156)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115189,7 +115002,7 @@ GameObject:
   - component: {fileID: 1129557251}
   - component: {fileID: 1129557250}
   - component: {fileID: 1129557249}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (102)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115323,7 +115136,7 @@ GameObject:
   - component: {fileID: 1130722515}
   - component: {fileID: 1130722514}
   - component: {fileID: 1130722513}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115534,7 +115347,7 @@ GameObject:
   - component: {fileID: 1136016012}
   - component: {fileID: 1136016011}
   - component: {fileID: 1136016010}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (199)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124885,7 +124698,7 @@ GameObject:
   - component: {fileID: 1159620756}
   - component: {fileID: 1159620755}
   - component: {fileID: 1159620754}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125019,7 +124832,7 @@ GameObject:
   - component: {fileID: 1176391048}
   - component: {fileID: 1176391047}
   - component: {fileID: 1176391046}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125154,7 +124967,7 @@ GameObject:
   - component: {fileID: 1177964850}
   - component: {fileID: 1177964849}
   - component: {fileID: 1177964852}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: palmtree (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125326,7 +125139,7 @@ GameObject:
   - component: {fileID: 1181304736}
   - component: {fileID: 1181304735}
   - component: {fileID: 1181304734}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125460,7 +125273,7 @@ GameObject:
   - component: {fileID: 1192152850}
   - component: {fileID: 1192152849}
   - component: {fileID: 1192152848}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (152)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125594,7 +125407,7 @@ GameObject:
   - component: {fileID: 1194206230}
   - component: {fileID: 1194206229}
   - component: {fileID: 1194206228}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (154)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125728,7 +125541,7 @@ GameObject:
   - component: {fileID: 1212178220}
   - component: {fileID: 1212178219}
   - component: {fileID: 1212178218}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125862,7 +125675,7 @@ GameObject:
   - component: {fileID: 1213776327}
   - component: {fileID: 1213776326}
   - component: {fileID: 1213776325}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (194)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125996,7 +125809,7 @@ GameObject:
   - component: {fileID: 1224975949}
   - component: {fileID: 1224975948}
   - component: {fileID: 1224975947}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126130,7 +125943,7 @@ GameObject:
   - component: {fileID: 1225260464}
   - component: {fileID: 1225260463}
   - component: {fileID: 1225260462}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126264,7 +126077,7 @@ GameObject:
   - component: {fileID: 1231240109}
   - component: {fileID: 1231240108}
   - component: {fileID: 1231240107}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (172)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126398,7 +126211,7 @@ GameObject:
   - component: {fileID: 1236500725}
   - component: {fileID: 1236500724}
   - component: {fileID: 1236500723}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126532,7 +126345,7 @@ GameObject:
   - component: {fileID: 1258436339}
   - component: {fileID: 1258436338}
   - component: {fileID: 1258436337}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126666,7 +126479,7 @@ GameObject:
   - component: {fileID: 1294941566}
   - component: {fileID: 1294941565}
   - component: {fileID: 1294941564}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (178)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126800,7 +126613,7 @@ GameObject:
   - component: {fileID: 1318120251}
   - component: {fileID: 1318120250}
   - component: {fileID: 1318120249}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (128)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126816,7 +126629,7 @@ Transform:
   m_GameObject: {fileID: 1318120247}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.16, y: 2.69, z: -1.3011626}
+  m_LocalPosition: {x: -2.16, y: 2.592, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -126934,7 +126747,7 @@ GameObject:
   - component: {fileID: 1319625055}
   - component: {fileID: 1319625054}
   - component: {fileID: 1319625053}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (94)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127068,7 +126881,7 @@ GameObject:
   - component: {fileID: 1321253164}
   - component: {fileID: 1321253163}
   - component: {fileID: 1321253162}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (104)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127202,7 +127015,7 @@ GameObject:
   - component: {fileID: 1335737378}
   - component: {fileID: 1335737377}
   - component: {fileID: 1335737376}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (206)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127336,7 +127149,7 @@ GameObject:
   - component: {fileID: 1340661444}
   - component: {fileID: 1340661443}
   - component: {fileID: 1340661442}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127470,7 +127283,7 @@ GameObject:
   - component: {fileID: 1341438411}
   - component: {fileID: 1341438410}
   - component: {fileID: 1341438409}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127592,6 +127405,90 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1344544062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1344544065}
+  - component: {fileID: 1344544064}
+  - component: {fileID: 1344544063}
+  m_Layer: 0
+  m_Name: Generador de Hada
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1344544063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344544062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 586a3b6a870ba194586d00731706ac32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fairyCounterTMP: {fileID: 0}
+  fairyCount: 0
+  onFairyCollected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 643458174}
+        m_TargetAssemblyTypeName: ObjectPool, Assembly-CSharp
+        m_MethodName: RecibirHada
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onFairyUsed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1344544064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344544062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 024df7aa05371f2448526aed1f6748cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tilemapCampo: {fileID: 243107681}
+  tileValido: {fileID: 11400000, guid: 7cf9a3071ccc5994496e96a6492ebb3a, type: 2}
+  objetoPrefab: {fileID: 828289427}
+  sistemaParticulasPrefab: {fileID: 1628385980937999617, guid: aed231e17f2026746911f95eeb9407e2, type: 3}
+  tiempoEspera: 10
+  tiempoIntervalo: 10
+  duracionObjeto: 10.35
+--- !u!4 &1344544065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344544062}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6, y: 3.213362, z: -0.08644443}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1349871323
 GameObject:
   m_ObjectHideFlags: 0
@@ -127604,7 +127501,7 @@ GameObject:
   - component: {fileID: 1349871327}
   - component: {fileID: 1349871326}
   - component: {fileID: 1349871325}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (85)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127854,7 +127751,7 @@ GameObject:
   - component: {fileID: 1378672768}
   - component: {fileID: 1378672767}
   - component: {fileID: 1378672770}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: palmtree (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128026,7 +127923,7 @@ GameObject:
   - component: {fileID: 1380914905}
   - component: {fileID: 1380914904}
   - component: {fileID: 1380914903}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128042,7 +127939,7 @@ Transform:
   m_GameObject: {fileID: 1380914901}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.52, y: 4.28, z: -1.3011626}
+  m_LocalPosition: {x: 8.33, y: 4.28, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -128161,7 +128058,7 @@ GameObject:
   - component: {fileID: 1394430143}
   - component: {fileID: 1394430142}
   - component: {fileID: 1394430145}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: palmtree (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128333,7 +128230,7 @@ GameObject:
   - component: {fileID: 1395595679}
   - component: {fileID: 1395595678}
   - component: {fileID: 1395595677}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (146)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128349,7 +128246,7 @@ Transform:
   m_GameObject: {fileID: 1395595675}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: 0.56, z: -1.3011626}
+  m_LocalPosition: {x: 8.33, y: 0.56, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -128467,7 +128364,7 @@ GameObject:
   - component: {fileID: 1398916940}
   - component: {fileID: 1398916939}
   - component: {fileID: 1398916938}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (190)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128601,7 +128498,7 @@ GameObject:
   - component: {fileID: 1407646905}
   - component: {fileID: 1407646904}
   - component: {fileID: 1407646903}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (149)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128617,7 +128514,7 @@ Transform:
   m_GameObject: {fileID: 1407646901}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.18, y: -0.3, z: -1.3011626}
+  m_LocalPosition: {x: 7.18, y: -0.16, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -128766,7 +128663,7 @@ GameObject:
   - component: {fileID: 1429149858}
   - component: {fileID: 1429149857}
   - component: {fileID: 1429149856}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (124)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128782,7 +128679,7 @@ Transform:
   m_GameObject: {fileID: 1429149854}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.35, y: 2.69, z: -1.3011626}
+  m_LocalPosition: {x: 0.35, y: 2.61, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -128900,7 +128797,7 @@ GameObject:
   - component: {fileID: 1429312053}
   - component: {fileID: 1429312052}
   - component: {fileID: 1429312051}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129034,7 +128931,7 @@ GameObject:
   - component: {fileID: 1447553832}
   - component: {fileID: 1447553831}
   - component: {fileID: 1447553830}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (193)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129168,7 +129065,7 @@ GameObject:
   - component: {fileID: 1462967846}
   - component: {fileID: 1462967845}
   - component: {fileID: 1462967844}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (86)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129302,7 +129199,7 @@ GameObject:
   - component: {fileID: 1473867240}
   - component: {fileID: 1473867239}
   - component: {fileID: 1473867238}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129436,7 +129333,7 @@ GameObject:
   - component: {fileID: 1483121514}
   - component: {fileID: 1483121513}
   - component: {fileID: 1483121512}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129951,7 +129848,7 @@ GameObject:
   - component: {fileID: 1498713686}
   - component: {fileID: 1498713685}
   - component: {fileID: 1498713684}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130085,7 +129982,7 @@ GameObject:
   - component: {fileID: 1504034134}
   - component: {fileID: 1504034133}
   - component: {fileID: 1504034132}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130101,7 +129998,7 @@ Transform:
   m_GameObject: {fileID: 1504034130}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.01, y: -0.75, z: -1.3011626}
+  m_LocalPosition: {x: 5.91, y: -0.94, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -130219,7 +130116,7 @@ GameObject:
   - component: {fileID: 1520857034}
   - component: {fileID: 1520857033}
   - component: {fileID: 1520857032}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (151)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130353,7 +130250,7 @@ GameObject:
   - component: {fileID: 1527815969}
   - component: {fileID: 1527815968}
   - component: {fileID: 1527815967}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130487,7 +130384,7 @@ GameObject:
   - component: {fileID: 1542496170}
   - component: {fileID: 1542496169}
   - component: {fileID: 1542496168}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (123)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130503,7 +130400,7 @@ Transform:
   m_GameObject: {fileID: 1542496166}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.67, y: 2.69, z: -1.3011626}
+  m_LocalPosition: {x: -4.67, y: 2.612, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -130621,7 +130518,7 @@ GameObject:
   - component: {fileID: 1545825093}
   - component: {fileID: 1545825092}
   - component: {fileID: 1545825091}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130756,7 +130653,7 @@ GameObject:
   - component: {fileID: 1547966635}
   - component: {fileID: 1547966634}
   - component: {fileID: 1547966637}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: palmtree (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130928,7 +130825,7 @@ GameObject:
   - component: {fileID: 1557510276}
   - component: {fileID: 1557510275}
   - component: {fileID: 1557510274}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131062,7 +130959,7 @@ GameObject:
   - component: {fileID: 1563408600}
   - component: {fileID: 1563408599}
   - component: {fileID: 1563408598}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (185)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131196,7 +131093,7 @@ GameObject:
   - component: {fileID: 1564038137}
   - component: {fileID: 1564038136}
   - component: {fileID: 1564038135}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (191)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131330,7 +131227,7 @@ GameObject:
   - component: {fileID: 1566639109}
   - component: {fileID: 1566639108}
   - component: {fileID: 1566639107}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131464,7 +131361,7 @@ GameObject:
   - component: {fileID: 1570783764}
   - component: {fileID: 1570783763}
   - component: {fileID: 1570783762}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131598,7 +131495,7 @@ GameObject:
   - component: {fileID: 1580443841}
   - component: {fileID: 1580443840}
   - component: {fileID: 1580443839}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (164)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131732,7 +131629,7 @@ GameObject:
   - component: {fileID: 1582216759}
   - component: {fileID: 1582216758}
   - component: {fileID: 1582216757}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131867,7 +131764,7 @@ GameObject:
   - component: {fileID: 1592954736}
   - component: {fileID: 1592954735}
   - component: {fileID: 1592954738}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: palmtree (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132039,7 +131936,7 @@ GameObject:
   - component: {fileID: 1607744847}
   - component: {fileID: 1607744846}
   - component: {fileID: 1607744845}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132173,7 +132070,7 @@ GameObject:
   - component: {fileID: 1624443936}
   - component: {fileID: 1624443935}
   - component: {fileID: 1624443934}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (161)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132307,7 +132204,7 @@ GameObject:
   - component: {fileID: 1633661045}
   - component: {fileID: 1633661044}
   - component: {fileID: 1633661043}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (87)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132441,7 +132338,7 @@ GameObject:
   - component: {fileID: 1639301210}
   - component: {fileID: 1639301209}
   - component: {fileID: 1639301208}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (137)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132575,7 +132472,7 @@ GameObject:
   - component: {fileID: 1646346108}
   - component: {fileID: 1646346107}
   - component: {fileID: 1646346106}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (142)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132709,7 +132606,7 @@ GameObject:
   - component: {fileID: 1646704667}
   - component: {fileID: 1646704666}
   - component: {fileID: 1646704665}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (112)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132895,6 +132792,10 @@ PrefabInstance:
       propertyPath: objectPrefab
       value: 
       objectReference: {fileID: 5247036318555253957, guid: 255c478388e49d341b5cefda996b7dd1, type: 3}
+    - target: {fileID: 7927562234127617000, guid: a562bcb9551d8904d8b8aee8ee8bbe94, type: 3}
+      propertyPath: contadorHadas
+      value: 
+      objectReference: {fileID: 1344544063}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -132915,7 +132816,7 @@ GameObject:
   - component: {fileID: 1663059955}
   - component: {fileID: 1663059954}
   - component: {fileID: 1663059953}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (116)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133049,7 +132950,7 @@ GameObject:
   - component: {fileID: 1675031615}
   - component: {fileID: 1675031614}
   - component: {fileID: 1675031613}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (127)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133065,7 +132966,7 @@ Transform:
   m_GameObject: {fileID: 1675031611}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.56, y: 2.69, z: -1.3011626}
+  m_LocalPosition: {x: -1.56, y: 2.573, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -133183,7 +133084,7 @@ GameObject:
   - component: {fileID: 1678449470}
   - component: {fileID: 1678449469}
   - component: {fileID: 1678449468}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (130)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133317,7 +133218,7 @@ GameObject:
   - component: {fileID: 1681841763}
   - component: {fileID: 1681841762}
   - component: {fileID: 1681841761}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133451,7 +133352,7 @@ GameObject:
   - component: {fileID: 1684038325}
   - component: {fileID: 1684038324}
   - component: {fileID: 1684038326}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133585,7 +133486,7 @@ GameObject:
   - component: {fileID: 1692505427}
   - component: {fileID: 1692505426}
   - component: {fileID: 1692505425}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (132)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133601,7 +133502,7 @@ Transform:
   m_GameObject: {fileID: 1692505423}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.27, y: 2.69, z: -1.3011626}
+  m_LocalPosition: {x: -5.27, y: 2.592, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -133719,7 +133620,7 @@ GameObject:
   - component: {fileID: 1692936009}
   - component: {fileID: 1692936008}
   - component: {fileID: 1692936007}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (177)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133853,7 +133754,7 @@ GameObject:
   - component: {fileID: 1697463774}
   - component: {fileID: 1697463773}
   - component: {fileID: 1697463772}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (214)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133987,7 +133888,7 @@ GameObject:
   - component: {fileID: 1699063529}
   - component: {fileID: 1699063528}
   - component: {fileID: 1699063527}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134356,7 +134257,7 @@ GameObject:
   - component: {fileID: 1759993335}
   - component: {fileID: 1759993334}
   - component: {fileID: 1759993333}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (188)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134490,7 +134391,7 @@ GameObject:
   - component: {fileID: 1792134897}
   - component: {fileID: 1792134896}
   - component: {fileID: 1792134895}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134624,7 +134525,7 @@ GameObject:
   - component: {fileID: 1794857263}
   - component: {fileID: 1794857262}
   - component: {fileID: 1794857261}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (189)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134758,7 +134659,7 @@ GameObject:
   - component: {fileID: 1805432035}
   - component: {fileID: 1805432034}
   - component: {fileID: 1805432033}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134892,7 +134793,7 @@ GameObject:
   - component: {fileID: 1816584416}
   - component: {fileID: 1816584415}
   - component: {fileID: 1816584414}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (153)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135014,140 +134915,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1816986110
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1816986111}
-  - component: {fileID: 1816986114}
-  - component: {fileID: 1816986113}
-  - component: {fileID: 1816986112}
-  m_Layer: 0
-  m_Name: jungle-tree (57)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1816986111
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1816986110}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.84, y: 3.62, z: -1.3011626}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1892361721}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &1816986112
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1816986110}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.011159539, y: 0.16004586}
-  m_Size: {x: 0.3200915, y: 0.32009172}
-  m_Direction: 0
---- !u!114 &1816986113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1816986110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 242211ccb78a6e24dba008e76783df6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sortingOffset: -1
---- !u!212 &1816986114
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1816986110}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1010225813
-  m_SortingLayer: 8
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93b51c1194a56a64dad944804c2f29ab, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1821448168
 GameObject:
   m_ObjectHideFlags: 0
@@ -135160,7 +134927,7 @@ GameObject:
   - component: {fileID: 1821448172}
   - component: {fileID: 1821448171}
   - component: {fileID: 1821448170}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (103)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135294,7 +135061,7 @@ GameObject:
   - component: {fileID: 1831352354}
   - component: {fileID: 1831352353}
   - component: {fileID: 1831352352}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135428,7 +135195,7 @@ GameObject:
   - component: {fileID: 1831700063}
   - component: {fileID: 1831700062}
   - component: {fileID: 1831700061}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (186)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135562,7 +135329,7 @@ GameObject:
   - component: {fileID: 1833307131}
   - component: {fileID: 1833307130}
   - component: {fileID: 1833307129}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (207)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135696,7 +135463,7 @@ GameObject:
   - component: {fileID: 1839552504}
   - component: {fileID: 1839552503}
   - component: {fileID: 1839552502}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135830,7 +135597,7 @@ GameObject:
   - component: {fileID: 1846599171}
   - component: {fileID: 1846599170}
   - component: {fileID: 1846599169}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (101)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135964,7 +135731,7 @@ GameObject:
   - component: {fileID: 1857328772}
   - component: {fileID: 1857328771}
   - component: {fileID: 1857328770}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136098,7 +135865,7 @@ GameObject:
   - component: {fileID: 1858782245}
   - component: {fileID: 1858782244}
   - component: {fileID: 1858782243}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136232,7 +135999,7 @@ GameObject:
   - component: {fileID: 1860419264}
   - component: {fileID: 1860419263}
   - component: {fileID: 1860419262}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (139)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136366,7 +136133,7 @@ GameObject:
   - component: {fileID: 1863218509}
   - component: {fileID: 1863218508}
   - component: {fileID: 1863218507}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (136)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136500,7 +136267,7 @@ GameObject:
   - component: {fileID: 1872131571}
   - component: {fileID: 1872131570}
   - component: {fileID: 1872131569}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136634,7 +136401,7 @@ GameObject:
   - component: {fileID: 1873310114}
   - component: {fileID: 1873310113}
   - component: {fileID: 1873310112}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (169)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136768,7 +136535,7 @@ GameObject:
   - component: {fileID: 1879049581}
   - component: {fileID: 1879049580}
   - component: {fileID: 1879049579}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136902,7 +136669,7 @@ GameObject:
   - component: {fileID: 1883199545}
   - component: {fileID: 1883199544}
   - component: {fileID: 1883199543}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137036,7 +136803,7 @@ GameObject:
   - component: {fileID: 1886274629}
   - component: {fileID: 1886274628}
   - component: {fileID: 1886274627}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (213)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137266,7 +137033,6 @@ Transform:
   - {fileID: 1857328769}
   - {fileID: 792318296}
   - {fileID: 1504034131}
-  - {fileID: 831419553}
   - {fileID: 247066287}
   - {fileID: 1225260461}
   - {fileID: 1130722512}
@@ -137433,7 +137199,6 @@ Transform:
   - {fileID: 1883199542}
   - {fileID: 646452696}
   - {fileID: 1566639106}
-  - {fileID: 118423362}
   - {fileID: 2103799964}
   - {fileID: 1934690403}
   - {fileID: 1258436336}
@@ -137458,7 +137223,6 @@ Transform:
   - {fileID: 1159620753}
   - {fileID: 1004418246}
   - {fileID: 1966337432}
-  - {fileID: 1816986111}
   - {fileID: 1607744844}
   - {fileID: 1963422849}
   - {fileID: 1020573287}
@@ -137485,7 +137249,7 @@ GameObject:
   - component: {fileID: 1919179031}
   - component: {fileID: 1919179030}
   - component: {fileID: 1919179029}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (159)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137619,7 +137383,7 @@ GameObject:
   - component: {fileID: 1919414104}
   - component: {fileID: 1919414103}
   - component: {fileID: 1919414102}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (144)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137753,7 +137517,7 @@ GameObject:
   - component: {fileID: 1934690406}
   - component: {fileID: 1934690405}
   - component: {fileID: 1934690404}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137887,7 +137651,7 @@ GameObject:
   - component: {fileID: 1946084216}
   - component: {fileID: 1946084215}
   - component: {fileID: 1946084214}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138021,7 +137785,7 @@ GameObject:
   - component: {fileID: 1956270807}
   - component: {fileID: 1956270806}
   - component: {fileID: 1956270805}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (171)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138155,7 +137919,7 @@ GameObject:
   - component: {fileID: 1963422852}
   - component: {fileID: 1963422851}
   - component: {fileID: 1963422850}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138289,7 +138053,7 @@ GameObject:
   - component: {fileID: 1963664647}
   - component: {fileID: 1963664646}
   - component: {fileID: 1963664645}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (163)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138423,7 +138187,7 @@ GameObject:
   - component: {fileID: 1966337435}
   - component: {fileID: 1966337434}
   - component: {fileID: 1966337433}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138557,7 +138321,7 @@ GameObject:
   - component: {fileID: 1983812494}
   - component: {fileID: 1983812493}
   - component: {fileID: 1983812492}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (203)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138786,7 +138550,7 @@ GameObject:
   - component: {fileID: 1989594144}
   - component: {fileID: 1989594143}
   - component: {fileID: 1989594142}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (141)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138920,7 +138684,7 @@ GameObject:
   - component: {fileID: 1989735426}
   - component: {fileID: 1989735425}
   - component: {fileID: 1989735424}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: big-jungle-tree (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139054,7 +138818,7 @@ GameObject:
   - component: {fileID: 1991771021}
   - component: {fileID: 1991771020}
   - component: {fileID: 1991771019}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (122)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139188,7 +138952,7 @@ GameObject:
   - component: {fileID: 2011556937}
   - component: {fileID: 2011556936}
   - component: {fileID: 2011556935}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (97)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139338,7 +139102,7 @@ Transform:
   m_GameObject: {fileID: 2012078281}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.02, y: -1.02, z: 0}
+  m_LocalPosition: {x: 7.36, y: -1.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -139413,7 +139177,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -139430,7 +139194,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.060018063}
+  m_Offset: {x: -0.3, y: 0.06519842}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -139441,7 +139205,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1377778, y: 0.4475689}
+  m_Size: {x: 0.2571187, y: 0.14710855}
   m_EdgeRadius: 0
 --- !u!114 &2012078286
 MonoBehaviour:
@@ -139457,6 +139221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   generadorProyectiles: {fileID: 643458173}
   puntoDisparo: {fileID: 137613747}
+  offsetX: 1
 --- !u!1 &2032718029
 GameObject:
   m_ObjectHideFlags: 0
@@ -139469,7 +139234,7 @@ GameObject:
   - component: {fileID: 2032718033}
   - component: {fileID: 2032718032}
   - component: {fileID: 2032718031}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (135)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139485,7 +139250,7 @@ Transform:
   m_GameObject: {fileID: 2032718029}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.04, y: 2.69, z: -1.3011626}
+  m_LocalPosition: {x: -6.04, y: 2.622, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -139603,7 +139368,7 @@ GameObject:
   - component: {fileID: 2034413564}
   - component: {fileID: 2034413563}
   - component: {fileID: 2034413562}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (108)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139737,7 +139502,7 @@ GameObject:
   - component: {fileID: 2035809433}
   - component: {fileID: 2035809432}
   - component: {fileID: 2035809431}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (197)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140065,7 +139830,7 @@ GameObject:
   - component: {fileID: 2064375247}
   - component: {fileID: 2064375246}
   - component: {fileID: 2064375245}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140199,7 +139964,7 @@ GameObject:
   - component: {fileID: 2071429814}
   - component: {fileID: 2071429813}
   - component: {fileID: 2071429812}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (196)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140333,7 +140098,7 @@ GameObject:
   - component: {fileID: 2073905101}
   - component: {fileID: 2073905100}
   - component: {fileID: 2073905099}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140467,7 +140232,7 @@ GameObject:
   - component: {fileID: 2074686845}
   - component: {fileID: 2074686844}
   - component: {fileID: 2074686843}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140601,7 +140366,7 @@ GameObject:
   - component: {fileID: 2094804264}
   - component: {fileID: 2094804263}
   - component: {fileID: 2094804262}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (147)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140617,7 +140382,7 @@ Transform:
   m_GameObject: {fileID: 2094804260}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: 0.17, z: -1.3011626}
+  m_LocalPosition: {x: 8.32, y: 0.17, z: -1.3011626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -140735,7 +140500,7 @@ GameObject:
   - component: {fileID: 2095739392}
   - component: {fileID: 2095739391}
   - component: {fileID: 2095739390}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (170)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140869,7 +140634,7 @@ GameObject:
   - component: {fileID: 2101907523}
   - component: {fileID: 2101907522}
   - component: {fileID: 2101907521}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141003,7 +140768,7 @@ GameObject:
   - component: {fileID: 2103799967}
   - component: {fileID: 2103799966}
   - component: {fileID: 2103799965}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141137,7 +140902,7 @@ GameObject:
   - component: {fileID: 2106322242}
   - component: {fileID: 2106322241}
   - component: {fileID: 2106322240}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (155)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141272,7 +141037,7 @@ GameObject:
   - component: {fileID: 2114980731}
   - component: {fileID: 2114980730}
   - component: {fileID: 2114980733}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: palmtree (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141444,7 +141209,7 @@ GameObject:
   - component: {fileID: 2115907236}
   - component: {fileID: 2115907235}
   - component: {fileID: 2115907234}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (113)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141578,7 +141343,7 @@ GameObject:
   - component: {fileID: 2140406092}
   - component: {fileID: 2140406091}
   - component: {fileID: 2140406090}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jungle-tree (120)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141720,3 +141485,5 @@ SceneRoots:
   - {fileID: 511539130}
   - {fileID: 411387445}
   - {fileID: 2012078282}
+  - {fileID: 1344544065}
+  - {fileID: 123148040}
