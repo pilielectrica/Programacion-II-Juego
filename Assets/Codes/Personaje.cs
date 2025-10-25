@@ -9,8 +9,8 @@ public class Mover : MonoBehaviour
 
     [Header("Audio")]
     public AudioSource pasoAudioSource;
-    public AudioClip[] pasosClips; // Array de clips de pasos
-    public float tiempoEntrePasos = 0.5f; // Tiempo entre cada paso
+    public AudioClip[] pasosClips;
+    public float tiempoEntrePasos = 0.5f;
 
     private float moverHorizontal;
     private float moverVertical;
@@ -19,19 +19,24 @@ public class Mover : MonoBehaviour
     private Rigidbody2D miRigidbody2D;
     private Animator miAnimator;
     private float temporizadorPasos;
-    private bool personajeMoviendose; // Para saber si el personaje se está moviendo
+    private bool personajeMoviendose;
 
     private GameObject llaveColisionada;
     public GameObject VFXLlave;
-    private bool tieneLlave = false; // Variable para saber si el personaje tiene la llave
+    private bool tieneLlave = false;
 
     [Header("Puerta")]
     public GameObject puerta;
-    public Vector3 posicionVictoria; // Posición a la que se moverá el personaje al ganar
+    public Vector3 posicionVictoria;
 
     [Header("Posiciones")]
-    public Vector3 posicionInicial; // Posición inicial a la que el personaje volverá al perder
+    public Vector3 posicionInicial;
     public int experienceValue;
+
+    [Header("Bazooka")]
+    public Transform puntoBazooka; // Lugar donde se coloca el bazooka (ajustable en el inspector)
+    private GameObject bazooka; // Referencia al bazooka recogido
+    private SpriteRenderer bazookaRenderer; // Para cambiar sorting y flip
 
     private void OnEnable()
     {
@@ -40,36 +45,47 @@ public class Mover : MonoBehaviour
         temporizadorPasos = tiempoEntrePasos;
     }
 
-    private void Update()
+   private void Update()
+{
+    moverHorizontal = Input.GetAxis("Horizontal");
+    moverVertical = Input.GetAxis("Vertical");
+    direccion = new Vector2(moverHorizontal, moverVertical);
+
+    // 🔹 Avisar al bazooka de la dirección horizontal
+    if (bazooka != null)
     {
-        moverHorizontal = Input.GetAxis("Horizontal");
-        moverVertical = Input.GetAxis("Vertical");
-        direccion = new Vector2(moverHorizontal, moverVertical);
+        Bazooka bazookaScript = bazooka.GetComponent<Bazooka>();
 
-        // Comprobar si el personaje está en movimiento
-        if (direccion.magnitude > 0.1f)
-        {
-            personajeMoviendose = true;
-            miAnimator.SetBool("IsMoving", true);
-            miAnimator.SetFloat("moveX", moverHorizontal);
-            miAnimator.SetFloat("moveY", moverVertical);
-
-            // Reproducir sonido de pasos solo si está en movimiento
-            temporizadorPasos -= Time.deltaTime;
-            if (temporizadorPasos <= 0)
-            {
-                ReproducirSonidoDePaso();
-                temporizadorPasos = tiempoEntrePasos; // Reiniciar temporizador
-            }
-        }
-        else
-        {
-            // Si deja de moverse, parar los pasos
-            personajeMoviendose = false;
-            miAnimator.SetBool("IsMoving", false);
-            temporizadorPasos = tiempoEntrePasos; // Reiniciar temporizador
-        }
+        if (moverHorizontal > 0)
+            bazookaScript.CambiarDireccion(true); // mira a la derecha
+        else if (moverHorizontal < 0)
+            bazookaScript.CambiarDireccion(false); // mira a la izquierda
     }
+
+    if (direccion.magnitude > 0.1f)
+    {
+        personajeMoviendose = true;
+        miAnimator.SetBool("IsMoving", true);
+        miAnimator.SetFloat("moveX", moverHorizontal);
+        miAnimator.SetFloat("moveY", moverVertical);
+
+        temporizadorPasos -= Time.deltaTime;
+        if (temporizadorPasos <= 0)
+        {
+            ReproducirSonidoDePaso();
+            temporizadorPasos = tiempoEntrePasos;
+        }
+
+        ActualizarBazookaOrientacion(); // Esto mantiene la orientación según arriba/abajo
+    }
+    else
+    {
+        personajeMoviendose = false;
+        miAnimator.SetBool("IsMoving", false);
+        temporizadorPasos = tiempoEntrePasos;
+    }
+}
+
 
     private void FixedUpdate()
     {
@@ -84,29 +100,25 @@ public class Mover : MonoBehaviour
         if (pasosClips.Length > 0 && personajeMoviendose)
         {
             int indice = Random.Range(0, pasosClips.Length);
-            AudioClip clipSeleccionado = pasosClips[indice];
-            pasoAudioSource.PlayOneShot(clipSeleccionado);
+            pasoAudioSource.PlayOneShot(pasosClips[indice]);
         }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        // Detectar colisión con la llave
+        // 🔑 Llave
         if (collision.gameObject.CompareTag("Llave"))
         {
             Debug.Log("Colisionó con la llave");
             AudioSource llaveAudio = collision.gameObject.GetComponent<AudioSource>();
-            if (llaveAudio != null)
-            {
-                llaveAudio.Play();
-            }
+            if (llaveAudio != null) llaveAudio.Play();
 
             llaveColisionada = collision.gameObject;
             Invoke("DesactivarLlave", 1f);
-            tieneLlave = true; // Marcar que el personaje tiene la llave
+            tieneLlave = true;
         }
 
-        // Detectar colisión con la puerta
+        // 🚪 Puerta
         if (collision.gameObject.CompareTag("Door"))
         {
             if (tieneLlave)
@@ -116,7 +128,6 @@ public class Mover : MonoBehaviour
                 playerProgression.GainExperience(experienceValue);
 
                 Debug.Log("¡Ganaste! Has abierto la puerta.");
-                // Mover el personaje a la posición de victoria
                 miRigidbody2D.transform.position = posicionVictoria;
             }
             else
@@ -125,12 +136,38 @@ public class Mover : MonoBehaviour
             }
         }
 
-        // Detectar colisión con el enemigo
+        // 💀 Enemigo
         if (collision.gameObject.CompareTag("Enemigo"))
         {
             Debug.Log("¡Perdiste! Colisionaste con el enemigo.");
-            // Mover el personaje a la posición inicial
             miRigidbody2D.transform.position = posicionInicial;
+        }
+
+        // 💥 Bazooka
+        if (collision.gameObject.CompareTag("Bazooka"))
+        {
+            Debug.Log("Has recogido el bazooka");
+
+            bazooka = collision.gameObject;
+            bazookaRenderer = bazooka.GetComponent<SpriteRenderer>();
+
+            // Desactivar colisión y física
+            Collider2D col = bazooka.GetComponent<Collider2D>();
+            if (col != null) col.enabled = false;
+            Rigidbody2D rb = bazooka.GetComponent<Rigidbody2D>();
+            if (rb != null) rb.simulated = false;
+
+            // Convertirlo en hijo del jugador
+            bazooka.transform.SetParent(transform);
+
+            // Posicionarlo en el punto de agarre
+            if (puntoBazooka != null)
+            {
+                bazooka.transform.localPosition = puntoBazooka.localPosition;
+                bazooka.transform.localRotation = puntoBazooka.localRotation;
+            }
+
+            Debug.Log("Bazooka ahora es hijo del jugador.");
         }
     }
 
@@ -139,7 +176,44 @@ public class Mover : MonoBehaviour
         if (llaveColisionada != null && llaveColisionada.CompareTag("Llave"))
         {
             llaveColisionada.SetActive(false);
-            VFXLlave.SetActive(false); // Opcional: desactivar efectos visuales de la llave
+            if (VFXLlave != null)
+                VFXLlave.SetActive(false);
+        }
+    }
+
+    void ActualizarBazookaOrientacion()
+    {
+        if (bazooka == null || bazookaRenderer == null)
+            return;
+
+        // Horizontal predominante
+        if (Mathf.Abs(moverHorizontal) > Mathf.Abs(moverVertical))
+        {
+            // ➡️ Derecha
+            if (moverHorizontal > 0)
+            {
+                bazookaRenderer.sortingOrder = 3000;
+                bazookaRenderer.flipX = true;
+            }
+            // ⬅️ Izquierda
+            else
+            {
+                bazookaRenderer.sortingOrder = 3000;
+                bazookaRenderer.flipX = false;
+            }
+        }
+        else
+        {
+            // ⬆️ Arriba → detrás del jugador
+            if (moverVertical > 0)
+            {
+                bazookaRenderer.sortingOrder = -2000;
+            }
+            // ⬇️ Abajo → delante del jugador
+            else
+            {
+                bazookaRenderer.sortingOrder = 3000;
+            }
         }
     }
 }
