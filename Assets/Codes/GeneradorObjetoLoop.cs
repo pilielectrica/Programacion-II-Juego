@@ -6,26 +6,23 @@ using UnityEngine.Tilemaps;
 public class GeneradorObjetoLoop : MonoBehaviour
 {
     [Header("Tilemap del campo")]
-    [SerializeField] private Tilemap tilemapCampo; // El Tilemap donde hay pasto
-    [SerializeField] private TileBase tileValido;  // Tile que permite spawn (pasto)
+    [SerializeField] private Tilemap tilemapCampo;    // Tilemap donde se generarán los objetos
+    [SerializeField] private TileBase tileValido;     // Tile válido para spawn (pasto)
 
-    [Header("Prefabs o referencias en escena")]
+    [Header("Prefabs")]
     [SerializeField] private GameObject objetoPrefab;          // Hada u objeto
     [SerializeField] private GameObject sistemaParticulasPrefab; // Efecto de partículas
 
-    [Header("Tiempos")]
+    [Header("Tiempo")]
     [SerializeField, Range(0.5f, 10f)] private float tiempoEspera = 1f;
     [SerializeField, Range(0.5f, 10f)] private float tiempoIntervalo = 1f;
-    
 
-
-[Header("Duración del objeto")]
-[SerializeField, Range(0.5f, 20f)] private float duracionObjeto = 2f;
-
+    [Header("Duración del objeto")]
+    [SerializeField, Range(0.5f, 20f)] private float duracionObjeto = 2f;
 
     private void Start()
     {
-        // ✅ Crear copias inactivas si los objetos vienen de la escena
+        // Si los objetos vienen ya desde la escena, los instanciamos y los dejamos inactivos
         if (objetoPrefab != null && objetoPrefab.scene.IsValid())
         {
             GameObject copia = Instantiate(objetoPrefab);
@@ -40,6 +37,7 @@ public class GeneradorObjetoLoop : MonoBehaviour
             sistemaParticulasPrefab = copiaParticulas;
         }
 
+        // Comenzar el loop de generación
         InvokeRepeating(nameof(GenerarObjetoLoopMethod), tiempoEspera, tiempoIntervalo);
     }
 
@@ -51,7 +49,7 @@ public class GeneradorObjetoLoop : MonoBehaviour
             return;
         }
 
-        // Obtener todas las celdas del Tilemap
+        // Obtener todas las celdas válidas
         BoundsInt bounds = tilemapCampo.cellBounds;
         List<Vector3> celdasValidas = new List<Vector3>();
 
@@ -60,34 +58,31 @@ public class GeneradorObjetoLoop : MonoBehaviour
             TileBase tile = tilemapCampo.GetTile(pos);
             if (tile == tileValido)
             {
-                // Guardar la posición central del tile
                 celdasValidas.Add(tilemapCampo.GetCellCenterWorld(pos));
             }
         }
 
         if (celdasValidas.Count == 0) return;
 
-        // Elegir aleatoriamente una celda válida
+        // Elegir una celda aleatoria
         Vector3 spawnPos = celdasValidas[Random.Range(0, celdasValidas.Count)];
 
-        // Instanciar objeto y partículas
+        // Instanciar el objeto y el sistema de partículas
         GameObject objetoGenerado = Instantiate(objetoPrefab, spawnPos, Quaternion.identity);
         objetoGenerado.SetActive(true);
 
         GameObject particulasGeneradas = Instantiate(sistemaParticulasPrefab, spawnPos, Quaternion.identity);
         particulasGeneradas.SetActive(true);
 
-        // Desaparecer ambos después de 2 segundos
+        // Destruir ambos después de un tiempo
         StartCoroutine(DesaparecerObjeto(objetoGenerado, duracionObjeto));
-StartCoroutine(DesaparecerObjeto(particulasGeneradas, duracionObjeto));
-
+        StartCoroutine(DesaparecerObjeto(particulasGeneradas, duracionObjeto));
     }
 
     private IEnumerator DesaparecerObjeto(GameObject objeto, float tiempo)
     {
         yield return new WaitForSeconds(tiempo);
-        if (objeto != null)
-            Destroy(objeto);
+        if (objeto != null) Destroy(objeto);
     }
 
     private void OnDestroy()

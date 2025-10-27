@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 5256304}
   m_Layer: 3
   m_Name: jungle-tree (30)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 12277126}
   m_Layer: 3
   m_Name: jungle-tree (64)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -404,7 +404,7 @@ GameObject:
   - component: {fileID: 15185012}
   m_Layer: 3
   m_Name: jungle-tree (175)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -538,7 +538,7 @@ GameObject:
   - component: {fileID: 16425822}
   m_Layer: 3
   m_Name: jungle-tree (25)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -672,7 +672,7 @@ GameObject:
   - component: {fileID: 24790567}
   m_Layer: 3
   m_Name: jungle-tree (129)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -806,7 +806,7 @@ GameObject:
   - component: {fileID: 48645796}
   m_Layer: 3
   m_Name: jungle-tree (45)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -940,7 +940,7 @@ GameObject:
   - component: {fileID: 50607178}
   m_Layer: 3
   m_Name: jungle-tree (187)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1074,7 +1074,7 @@ GameObject:
   - component: {fileID: 76759648}
   m_Layer: 3
   m_Name: jungle-tree (200)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1194,71 +1194,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &123148040
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 7.36
-      objectReference: {fileID: 0}
-    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.36
-      objectReference: {fileID: 0}
-    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5709990202345456837, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
-      propertyPath: m_Name
-      value: Hada1 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5709990202345456837, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7109310788464824466, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
-      propertyPath: alRecolectarHada.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1344544063}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
 --- !u!1 &130401639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1304,7 +1239,7 @@ GameObject:
   - component: {fileID: 134040450}
   m_Layer: 3
   m_Name: jungle-tree (205)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1469,7 +1404,7 @@ GameObject:
   - component: {fileID: 150846840}
   m_Layer: 3
   m_Name: jungle-tree (150)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1603,7 +1538,7 @@ GameObject:
   - component: {fileID: 152490972}
   m_Layer: 3
   m_Name: jungle-tree (21)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1945,7 +1880,7 @@ GameObject:
   - component: {fileID: 160665756}
   m_Layer: 3
   m_Name: jungle-tree (83)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2079,7 +2014,7 @@ GameObject:
   - component: {fileID: 176485507}
   m_Layer: 3
   m_Name: jungle-tree (138)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2213,7 +2148,7 @@ GameObject:
   - component: {fileID: 185640103}
   m_Layer: 3
   m_Name: jungle-tree (140)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2347,7 +2282,7 @@ GameObject:
   - component: {fileID: 189840007}
   m_Layer: 3
   m_Name: jungle-tree (41)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100253,7 +100188,7 @@ GameObject:
   - component: {fileID: 247066288}
   m_Layer: 3
   m_Name: jungle-tree (18)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100387,7 +100322,7 @@ GameObject:
   - component: {fileID: 257862121}
   m_Layer: 3
   m_Name: jungle-tree (72)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100521,7 +100456,7 @@ GameObject:
   - component: {fileID: 259358281}
   m_Layer: 3
   m_Name: jungle-tree (184)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100655,7 +100590,7 @@ GameObject:
   - component: {fileID: 259916362}
   m_Layer: 3
   m_Name: jungle-tree (47)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100789,7 +100724,7 @@ GameObject:
   - component: {fileID: 261301605}
   m_Layer: 3
   m_Name: jungle-tree (43)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100923,7 +100858,7 @@ GameObject:
   - component: {fileID: 265663694}
   m_Layer: 3
   m_Name: jungle-tree (107)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101057,7 +100992,7 @@ GameObject:
   - component: {fileID: 275764504}
   m_Layer: 3
   m_Name: jungle-tree (167)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101191,7 +101126,7 @@ GameObject:
   - component: {fileID: 282556577}
   m_Layer: 3
   m_Name: jungle-tree (157)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101311,6 +101246,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &299525783 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5709990202345456837, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+  m_PrefabInstance: {fileID: 1636432363}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &299525789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299525783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea59d82db9e4c024e80d68e1d1368d9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alRecolectarHada:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1344544063}
+        m_TargetAssemblyTypeName: ContadorDeHadas, Assembly-CSharp
+        m_MethodName: ActualizarContador
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  hadaAudioClip: {fileID: 8300000, guid: 9247c092cf61ad3458f83155b13b7287, type: 3}
 --- !u!1 &299910705
 GameObject:
   m_ObjectHideFlags: 0
@@ -101325,7 +101293,7 @@ GameObject:
   - component: {fileID: 299910707}
   m_Layer: 3
   m_Name: jungle-tree (173)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101459,7 +101427,7 @@ GameObject:
   - component: {fileID: 302791620}
   m_Layer: 3
   m_Name: jungle-tree (78)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101593,7 +101561,7 @@ GameObject:
   - component: {fileID: 320455114}
   m_Layer: 3
   m_Name: jungle-tree (145)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101727,7 +101695,7 @@ GameObject:
   - component: {fileID: 324335632}
   m_Layer: 3
   m_Name: jungle-tree (46)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101861,7 +101829,7 @@ GameObject:
   - component: {fileID: 328822626}
   m_Layer: 3
   m_Name: jungle-tree (158)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101995,7 +101963,7 @@ GameObject:
   - component: {fileID: 331615700}
   m_Layer: 3
   m_Name: jungle-tree (61)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102130,7 +102098,7 @@ GameObject:
   - component: {fileID: 342987580}
   m_Layer: 3
   m_Name: palmtree (13)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102302,7 +102270,7 @@ GameObject:
   - component: {fileID: 346278264}
   m_Layer: 3
   m_Name: jungle-tree (23)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102436,7 +102404,7 @@ GameObject:
   - component: {fileID: 357787259}
   m_Layer: 3
   m_Name: jungle-tree (84)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102570,7 +102538,7 @@ GameObject:
   - component: {fileID: 372714336}
   m_Layer: 3
   m_Name: jungle-tree (106)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102704,7 +102672,7 @@ GameObject:
   - component: {fileID: 374626171}
   m_Layer: 3
   m_Name: jungle-tree (118)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102838,7 +102806,7 @@ GameObject:
   - component: {fileID: 377010960}
   m_Layer: 3
   m_Name: jungle-tree (93)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102974,7 +102942,7 @@ GameObject:
   - component: {fileID: 377971959}
   m_Layer: 3
   m_Name: palmtree (7)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103159,7 +103127,7 @@ GameObject:
   - component: {fileID: 378904854}
   m_Layer: 3
   m_Name: jungle-tree (162)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103293,7 +103261,7 @@ GameObject:
   - component: {fileID: 383706646}
   m_Layer: 3
   m_Name: jungle-tree (133)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103427,7 +103395,7 @@ GameObject:
   - component: {fileID: 389522702}
   m_Layer: 3
   m_Name: jungle-tree (121)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103561,7 +103529,7 @@ GameObject:
   - component: {fileID: 391266599}
   m_Layer: 3
   m_Name: jungle-tree (90)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103814,7 +103782,7 @@ GameObject:
   - component: {fileID: 414147036}
   m_Layer: 3
   m_Name: jungle-tree (209)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103948,7 +103916,7 @@ GameObject:
   - component: {fileID: 445589675}
   m_Layer: 3
   m_Name: big-jungle-tree (6)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104082,7 +104050,7 @@ GameObject:
   - component: {fileID: 447624397}
   m_Layer: 3
   m_Name: jungle-tree (180)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104216,7 +104184,7 @@ GameObject:
   - component: {fileID: 451147291}
   m_Layer: 3
   m_Name: jungle-tree (77)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104350,7 +104318,7 @@ GameObject:
   - component: {fileID: 485171276}
   m_Layer: 3
   m_Name: jungle-tree (115)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104484,7 +104452,7 @@ GameObject:
   - component: {fileID: 501113923}
   m_Layer: 3
   m_Name: jungle-tree (166)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104618,7 +104586,7 @@ GameObject:
   - component: {fileID: 501956215}
   m_Layer: 3
   m_Name: jungle-tree (75)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104752,7 +104720,7 @@ GameObject:
   - component: {fileID: 509158513}
   m_Layer: 3
   m_Name: jungle-tree (202)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105040,7 +105008,7 @@ GameObject:
   - component: {fileID: 535962979}
   m_Layer: 3
   m_Name: jungle-tree (98)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105174,7 +105142,7 @@ GameObject:
   - component: {fileID: 541506741}
   m_Layer: 3
   m_Name: jungle-tree (119)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105308,7 +105276,7 @@ GameObject:
   - component: {fileID: 561963566}
   m_Layer: 3
   m_Name: jungle-tree (192)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105442,7 +105410,7 @@ GameObject:
   - component: {fileID: 563551647}
   m_Layer: 3
   m_Name: jungle-tree (110)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105576,7 +105544,7 @@ GameObject:
   - component: {fileID: 576777395}
   m_Layer: 3
   m_Name: jungle-tree (211)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105710,7 +105678,7 @@ GameObject:
   - component: {fileID: 579989487}
   m_Layer: 3
   m_Name: jungle-tree (105)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105844,7 +105812,7 @@ GameObject:
   - component: {fileID: 593702877}
   m_Layer: 3
   m_Name: jungle-tree (35)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105979,7 +105947,7 @@ GameObject:
   - component: {fileID: 597514233}
   m_Layer: 3
   m_Name: palmtree (8)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106151,7 +106119,7 @@ GameObject:
   - component: {fileID: 606783442}
   m_Layer: 3
   m_Name: jungle-tree (48)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106285,7 +106253,7 @@ GameObject:
   - component: {fileID: 609359115}
   m_Layer: 3
   m_Name: jungle-tree (212)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106419,7 +106387,7 @@ GameObject:
   - component: {fileID: 626139374}
   m_Layer: 3
   m_Name: jungle-tree (100)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106554,7 +106522,7 @@ GameObject:
   - component: {fileID: 627693504}
   m_Layer: 3
   m_Name: palmtree (9)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106726,7 +106694,7 @@ GameObject:
   - component: {fileID: 637514898}
   m_Layer: 3
   m_Name: jungle-tree (176)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106891,7 +106859,7 @@ GameObject:
   - component: {fileID: 642396388}
   m_Layer: 3
   m_Name: jungle-tree (79)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107034,17 +107002,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fuerzaDisparo: 10
---- !u!114 &643458174 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7927562234127617000, guid: a562bcb9551d8904d8b8aee8ee8bbe94, type: 3}
-  m_PrefabInstance: {fileID: 1655203951}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 643458168}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 919db2c3a2cf70b46a41bc1179557415, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  puntoDisparo: {fileID: 137613747}
+  direccion: {x: 1, y: 0}
 --- !u!1 &646452695
 GameObject:
   m_ObjectHideFlags: 0
@@ -107059,7 +107018,7 @@ GameObject:
   - component: {fileID: 646452697}
   m_Layer: 3
   m_Name: jungle-tree (66)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107193,7 +107152,7 @@ GameObject:
   - component: {fileID: 653847693}
   m_Layer: 3
   m_Name: jungle-tree (165)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107327,7 +107286,7 @@ GameObject:
   - component: {fileID: 663371115}
   m_Layer: 3
   m_Name: jungle-tree (111)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107461,7 +107420,7 @@ GameObject:
   - component: {fileID: 707848869}
   m_Layer: 3
   m_Name: jungle-tree (134)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107581,6 +107540,202 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &720533926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 720533933}
+  - component: {fileID: 720533932}
+  - component: {fileID: 720533931}
+  - component: {fileID: 720533929}
+  - component: {fileID: 720533928}
+  - component: {fileID: 720533934}
+  m_Layer: 0
+  m_Name: Balsa Mar 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &720533928
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720533926}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.036287963, y: -0.0010354519}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.072, y: 2.048}
+    newSize: {x: 15.36, y: 10.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0761644, y: 1.1977315}
+  m_EdgeRadius: 0
+--- !u!50 &720533929
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720533926}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!95 &720533931
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720533926}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f752b0f958942684ca0e317667107ff8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!212 &720533932
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720533926}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1139303749
+  m_SortingLayer: 7
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: fa87a754f69c5f344af64aac9e9699a6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 15.36, y: 10.24}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &720533933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720533926}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.46, y: 7.32, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 845869574}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &720533934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720533926}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f939ff664543054caeb8d61f6959b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distancia: 3
+  velocidad: 2
 --- !u!1 &737006037
 GameObject:
   m_ObjectHideFlags: 0
@@ -107595,7 +107750,7 @@ GameObject:
   - component: {fileID: 737006039}
   m_Layer: 3
   m_Name: jungle-tree (88)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107729,7 +107884,7 @@ GameObject:
   - component: {fileID: 744054672}
   m_Layer: 3
   m_Name: big-jungle-tree (5)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107863,7 +108018,7 @@ GameObject:
   - component: {fileID: 752735364}
   m_Layer: 3
   m_Name: jungle-tree (13)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107997,7 +108152,7 @@ GameObject:
   - component: {fileID: 752858504}
   m_Layer: 3
   m_Name: jungle-tree (92)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108131,7 +108286,7 @@ GameObject:
   - component: {fileID: 752993044}
   m_Layer: 3
   m_Name: jungle-tree (210)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108265,7 +108420,7 @@ GameObject:
   - component: {fileID: 762424727}
   m_Layer: 3
   m_Name: jungle-tree (183)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108399,7 +108554,7 @@ GameObject:
   - component: {fileID: 779312163}
   m_Layer: 3
   m_Name: jungle-tree (109)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108533,7 +108688,7 @@ GameObject:
   - component: {fileID: 779801998}
   m_Layer: 3
   m_Name: jungle-tree (198)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108667,7 +108822,7 @@ GameObject:
   - component: {fileID: 783271628}
   m_Layer: 3
   m_Name: jungle-tree (182)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108801,7 +108956,7 @@ GameObject:
   - component: {fileID: 792318297}
   m_Layer: 3
   m_Name: jungle-tree (15)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108936,7 +109091,7 @@ GameObject:
   - component: {fileID: 794858292}
   m_Layer: 3
   m_Name: palmtree (2)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109108,7 +109263,7 @@ GameObject:
   - component: {fileID: 799969323}
   m_Layer: 3
   m_Name: jungle-tree (4)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109242,7 +109397,7 @@ GameObject:
   - component: {fileID: 807947438}
   m_Layer: 3
   m_Name: jungle-tree (131)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109376,7 +109531,7 @@ GameObject:
   - component: {fileID: 827423174}
   m_Layer: 3
   m_Name: jungle-tree (160)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109496,11 +109651,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &828289427 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5709990202345456837, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
-  m_PrefabInstance: {fileID: 123148040}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &828833706
 GameObject:
   m_ObjectHideFlags: 0
@@ -109515,7 +109665,7 @@ GameObject:
   - component: {fileID: 828833708}
   m_Layer: 3
   m_Name: jungle-tree (114)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109649,7 +109799,7 @@ GameObject:
   - component: {fileID: 829594086}
   m_Layer: 3
   m_Name: jungle-tree (179)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109783,7 +109933,7 @@ GameObject:
   - component: {fileID: 831283366}
   m_Layer: 3
   m_Name: jungle-tree (148)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109917,7 +110067,7 @@ GameObject:
   - component: {fileID: 835014735}
   m_Layer: 3
   m_Name: jungle-tree (9)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110037,6 +110187,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &845869573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 845869574}
+  m_Layer: 0
+  m_Name: PuntoJugador
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &845869574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845869573}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 720533933}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &846764307
 GameObject:
   m_ObjectHideFlags: 0
@@ -110051,7 +110232,7 @@ GameObject:
   - component: {fileID: 846764309}
   m_Layer: 3
   m_Name: jungle-tree (91)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110185,7 +110366,7 @@ GameObject:
   - component: {fileID: 860385619}
   m_Layer: 3
   m_Name: jungle-tree (80)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110319,7 +110500,7 @@ GameObject:
   - component: {fileID: 862947651}
   m_Layer: 3
   m_Name: jungle-tree (125)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110453,7 +110634,7 @@ GameObject:
   - component: {fileID: 873958907}
   m_Layer: 3
   m_Name: jungle-tree (174)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110588,7 +110769,7 @@ GameObject:
   - component: {fileID: 885409417}
   m_Layer: 3
   m_Name: palmtree (12)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110760,7 +110941,7 @@ GameObject:
   - component: {fileID: 889798628}
   m_Layer: 3
   m_Name: jungle-tree (204)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110894,7 +111075,7 @@ GameObject:
   - component: {fileID: 916883202}
   m_Layer: 3
   m_Name: jungle-tree (181)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111029,7 +111210,7 @@ GameObject:
   - component: {fileID: 930863257}
   m_Layer: 3
   m_Name: palmtree (5)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111202,7 +111383,7 @@ GameObject:
   - component: {fileID: 948160863}
   m_Layer: 3
   m_Name: palmtree
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111374,7 +111555,7 @@ GameObject:
   - component: {fileID: 958108139}
   m_Layer: 3
   m_Name: jungle-tree (126)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111539,7 +111720,7 @@ GameObject:
   - component: {fileID: 966825269}
   m_Layer: 3
   m_Name: jungle-tree (29)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111673,7 +111854,7 @@ GameObject:
   - component: {fileID: 968127062}
   m_Layer: 3
   m_Name: jungle-tree (11)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111807,7 +111988,7 @@ GameObject:
   - component: {fileID: 976045660}
   m_Layer: 3
   m_Name: big-jungle-tree (7)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111941,7 +112122,7 @@ GameObject:
   - component: {fileID: 986242666}
   m_Layer: 3
   m_Name: jungle-tree (195)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112075,7 +112256,7 @@ GameObject:
   - component: {fileID: 993208345}
   m_Layer: 3
   m_Name: jungle-tree (42)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112209,7 +112390,7 @@ GameObject:
   - component: {fileID: 1004418247}
   m_Layer: 3
   m_Name: jungle-tree (55)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112343,7 +112524,7 @@ GameObject:
   - component: {fileID: 1018953832}
   m_Layer: 3
   m_Name: jungle-tree (27)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112477,7 +112658,7 @@ GameObject:
   - component: {fileID: 1020573288}
   m_Layer: 3
   m_Name: jungle-tree (60)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112611,7 +112792,7 @@ GameObject:
   - component: {fileID: 1021419388}
   m_Layer: 3
   m_Name: jungle-tree (117)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112745,7 +112926,7 @@ GameObject:
   - component: {fileID: 1021717849}
   m_Layer: 3
   m_Name: big-jungle-tree (1)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112879,7 +113060,7 @@ GameObject:
   - component: {fileID: 1025943588}
   m_Layer: 3
   m_Name: jungle-tree (81)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113013,7 +113194,7 @@ GameObject:
   - component: {fileID: 1032786716}
   m_Layer: 3
   m_Name: jungle-tree (208)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113133,6 +113314,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1036369943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1036369944}
+  - component: {fileID: 1036369946}
+  - component: {fileID: 1036369945}
+  m_Layer: 5
+  m_Name: hadaimagen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1036369944
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036369943}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.47847, y: 0.47847, z: 0.47847}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1360738304}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 261.7, y: 185}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1036369945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036369943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.81832093, g: 0.63879496, b: 0.8207547, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3a2652023c575664db9192efa935432d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 1
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 1
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1036369946
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036369943}
+  m_CullTransparentMesh: 1
 --- !u!1 &1036951771
 GameObject:
   m_ObjectHideFlags: 0
@@ -113147,7 +113403,7 @@ GameObject:
   - component: {fileID: 1036951773}
   m_Layer: 3
   m_Name: jungle-tree (26)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113281,7 +113537,7 @@ GameObject:
   - component: {fileID: 1061597619}
   m_Layer: 3
   m_Name: jungle-tree (168)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113401,6 +113657,78 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1076864013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1076864014}
+  - component: {fileID: 1076864016}
+  - component: {fileID: 1076864015}
+  m_Layer: 5
+  m_Name: fondonumero
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1076864014
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076864013}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.2543217, y: 0.68262404, z: 0.68262404}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1360738304}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 284, y: 182}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1076864015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076864013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: cb05b64de72b97a40bac74de21aa027c, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1076864016
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076864013}
+  m_CullTransparentMesh: 1
 --- !u!1 &1081085209
 GameObject:
   m_ObjectHideFlags: 0
@@ -113415,7 +113743,7 @@ GameObject:
   - component: {fileID: 1081085211}
   m_Layer: 3
   m_Name: jungle-tree (95)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113721,7 +114049,7 @@ GameObject:
   - component: {fileID: 1096336190}
   m_Layer: 3
   m_Name: jungle-tree (89)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113855,7 +114183,7 @@ GameObject:
   - component: {fileID: 1100504571}
   m_Layer: 3
   m_Name: jungle-tree (99)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113989,7 +114317,7 @@ GameObject:
   - component: {fileID: 1107207728}
   m_Layer: 3
   m_Name: jungle-tree (37)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114123,7 +114451,7 @@ GameObject:
   - component: {fileID: 1107884392}
   m_Layer: 3
   m_Name: jungle-tree (6)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114257,7 +114585,7 @@ GameObject:
   - component: {fileID: 1111797359}
   m_Layer: 3
   m_Name: big-jungle-tree
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114391,7 +114719,7 @@ GameObject:
   - component: {fileID: 1112388138}
   m_Layer: 3
   m_Name: jungle-tree (143)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114525,7 +114853,7 @@ GameObject:
   - component: {fileID: 1122411791}
   m_Layer: 3
   m_Name: jungle-tree (201)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114659,7 +114987,7 @@ GameObject:
   - component: {fileID: 1124398871}
   m_Layer: 3
   m_Name: jungle-tree (96)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114793,7 +115121,7 @@ GameObject:
   - component: {fileID: 1126435648}
   m_Layer: 3
   m_Name: jungle-tree (156)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115004,7 +115332,7 @@ GameObject:
   - component: {fileID: 1129557249}
   m_Layer: 3
   m_Name: jungle-tree (102)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115138,7 +115466,7 @@ GameObject:
   - component: {fileID: 1130722513}
   m_Layer: 3
   m_Name: jungle-tree (20)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115349,7 +115677,7 @@ GameObject:
   - component: {fileID: 1136016010}
   m_Layer: 3
   m_Name: jungle-tree (199)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124700,7 +125028,7 @@ GameObject:
   - component: {fileID: 1159620754}
   m_Layer: 3
   m_Name: jungle-tree (54)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124834,7 +125162,7 @@ GameObject:
   - component: {fileID: 1176391046}
   m_Layer: 3
   m_Name: jungle-tree (82)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124969,7 +125297,7 @@ GameObject:
   - component: {fileID: 1177964852}
   m_Layer: 3
   m_Name: palmtree (1)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -125141,7 +125469,7 @@ GameObject:
   - component: {fileID: 1181304734}
   m_Layer: 3
   m_Name: jungle-tree (7)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -125275,7 +125603,7 @@ GameObject:
   - component: {fileID: 1192152848}
   m_Layer: 3
   m_Name: jungle-tree (152)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -125409,7 +125737,7 @@ GameObject:
   - component: {fileID: 1194206228}
   m_Layer: 3
   m_Name: jungle-tree (154)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -125543,7 +125871,7 @@ GameObject:
   - component: {fileID: 1212178218}
   m_Layer: 3
   m_Name: jungle-tree (24)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -125677,7 +126005,7 @@ GameObject:
   - component: {fileID: 1213776325}
   m_Layer: 3
   m_Name: jungle-tree (194)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -125797,140 +126125,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1224975945
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!224 &1216601655 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+  m_PrefabInstance: {fileID: 1906239099}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1224975946}
-  - component: {fileID: 1224975949}
-  - component: {fileID: 1224975948}
-  - component: {fileID: 1224975947}
-  m_Layer: 3
-  m_Name: jungle-tree (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1224975946
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1224975945}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.54, y: -1.56, z: -1.3011626}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1892361721}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &1224975947
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1224975945}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.011159539, y: 0.16004586}
-  m_Size: {x: 0.3200915, y: 0.32009172}
-  m_Direction: 0
---- !u!114 &1224975948
+--- !u!114 &1216601656 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 3846657800446404951, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+  m_PrefabInstance: {fileID: 1906239099}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1224975945}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 242211ccb78a6e24dba008e76783df6a, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sortingOffset: -1
---- !u!212 &1224975949
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1224975945}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1010225813
-  m_SortingLayer: 8
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93b51c1194a56a64dad944804c2f29ab, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1225260460
 GameObject:
   m_ObjectHideFlags: 0
@@ -125945,7 +126155,7 @@ GameObject:
   - component: {fileID: 1225260462}
   m_Layer: 3
   m_Name: jungle-tree (19)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126079,7 +126289,7 @@ GameObject:
   - component: {fileID: 1231240107}
   m_Layer: 3
   m_Name: jungle-tree (172)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126213,7 +126423,7 @@ GameObject:
   - component: {fileID: 1236500723}
   m_Layer: 3
   m_Name: jungle-tree (34)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126347,7 +126557,7 @@ GameObject:
   - component: {fileID: 1258436337}
   m_Layer: 3
   m_Name: jungle-tree (71)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126481,7 +126691,7 @@ GameObject:
   - component: {fileID: 1294941564}
   m_Layer: 3
   m_Name: jungle-tree (178)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126601,6 +126811,78 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1311261878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1311261879}
+  - component: {fileID: 1311261881}
+  - component: {fileID: 1311261880}
+  m_Layer: 5
+  m_Name: RawImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1311261879
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311261878}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.61107, y: 0.61107, z: 0.61107}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1360738304}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 262, y: 190}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1311261880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311261878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 066689222ece05943ab375f0997e2565, type: 2}
+  m_Color: {r: 0.61432695, g: 0.3177287, b: 0.6415094, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1311261881
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311261878}
+  m_CullTransparentMesh: 1
 --- !u!1 &1318120247
 GameObject:
   m_ObjectHideFlags: 0
@@ -126615,7 +126897,7 @@ GameObject:
   - component: {fileID: 1318120249}
   m_Layer: 3
   m_Name: jungle-tree (128)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126749,7 +127031,7 @@ GameObject:
   - component: {fileID: 1319625053}
   m_Layer: 3
   m_Name: jungle-tree (94)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126883,7 +127165,7 @@ GameObject:
   - component: {fileID: 1321253162}
   m_Layer: 3
   m_Name: jungle-tree (104)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127017,7 +127299,7 @@ GameObject:
   - component: {fileID: 1335737376}
   m_Layer: 3
   m_Name: jungle-tree (206)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127151,7 +127433,7 @@ GameObject:
   - component: {fileID: 1340661442}
   m_Layer: 3
   m_Name: jungle-tree (63)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127285,7 +127567,7 @@ GameObject:
   - component: {fileID: 1341438409}
   m_Layer: 3
   m_Name: jungle-tree (38)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127435,15 +127717,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 586a3b6a870ba194586d00731706ac32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fairyCounterTMP: {fileID: 0}
+  fairyCounterTMP: {fileID: 1216601656}
   fairyCount: 0
   onFairyCollected:
     m_PersistentCalls:
+      m_Calls: []
+  onFairyUsed:
+    m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 643458174}
-        m_TargetAssemblyTypeName: ObjectPool, Assembly-CSharp
-        m_MethodName: RecibirHada
-        m_Mode: 1
+      - m_Target: {fileID: 1344544063}
+        m_TargetAssemblyTypeName: ContadorDeHadas, Assembly-CSharp
+        m_MethodName: UsarHada
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -127452,9 +127737,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  onFairyUsed:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1344544064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127469,7 +127751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tilemapCampo: {fileID: 243107681}
   tileValido: {fileID: 11400000, guid: 7cf9a3071ccc5994496e96a6492ebb3a, type: 2}
-  objetoPrefab: {fileID: 828289427}
+  objetoPrefab: {fileID: 299525783}
   sistemaParticulasPrefab: {fileID: 1628385980937999617, guid: aed231e17f2026746911f95eeb9407e2, type: 3}
   tiempoEspera: 10
   tiempoIntervalo: 10
@@ -127503,7 +127785,7 @@ GameObject:
   - component: {fileID: 1349871325}
   m_Layer: 3
   m_Name: jungle-tree (85)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127623,6 +127905,111 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1360738300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1360738304}
+  - component: {fileID: 1360738303}
+  - component: {fileID: 1360738302}
+  - component: {fileID: 1360738301}
+  m_Layer: 5
+  m_Name: HUD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1360738301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360738300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1360738302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360738300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1360738303
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360738300}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1360738304
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360738300}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1076864014}
+  - {fileID: 1216601655}
+  - {fileID: 1311261879}
+  - {fileID: 1036369944}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1366219408
 GameObject:
   m_ObjectHideFlags: 0
@@ -127753,7 +128140,7 @@ GameObject:
   - component: {fileID: 1378672770}
   m_Layer: 3
   m_Name: palmtree (11)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127925,7 +128312,7 @@ GameObject:
   - component: {fileID: 1380914903}
   m_Layer: 3
   m_Name: jungle-tree (62)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128060,7 +128447,7 @@ GameObject:
   - component: {fileID: 1394430145}
   m_Layer: 3
   m_Name: palmtree (3)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128232,7 +128619,7 @@ GameObject:
   - component: {fileID: 1395595677}
   m_Layer: 3
   m_Name: jungle-tree (146)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128366,7 +128753,7 @@ GameObject:
   - component: {fileID: 1398916938}
   m_Layer: 3
   m_Name: jungle-tree (190)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128500,7 +128887,7 @@ GameObject:
   - component: {fileID: 1407646903}
   m_Layer: 3
   m_Name: jungle-tree (149)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128665,7 +129052,7 @@ GameObject:
   - component: {fileID: 1429149856}
   m_Layer: 3
   m_Name: jungle-tree (124)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128799,7 +129186,7 @@ GameObject:
   - component: {fileID: 1429312051}
   m_Layer: 3
   m_Name: jungle-tree (31)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128933,7 +129320,7 @@ GameObject:
   - component: {fileID: 1447553830}
   m_Layer: 3
   m_Name: jungle-tree (193)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129067,7 +129454,7 @@ GameObject:
   - component: {fileID: 1462967844}
   m_Layer: 3
   m_Name: jungle-tree (86)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129201,7 +129588,7 @@ GameObject:
   - component: {fileID: 1473867238}
   m_Layer: 3
   m_Name: jungle-tree (50)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129335,7 +129722,7 @@ GameObject:
   - component: {fileID: 1483121512}
   m_Layer: 3
   m_Name: jungle-tree (12)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129850,7 +130237,7 @@ GameObject:
   - component: {fileID: 1498713684}
   m_Layer: 3
   m_Name: jungle-tree (5)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129984,7 +130371,7 @@ GameObject:
   - component: {fileID: 1504034132}
   m_Layer: 3
   m_Name: jungle-tree (16)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130118,7 +130505,7 @@ GameObject:
   - component: {fileID: 1520857032}
   m_Layer: 3
   m_Name: jungle-tree (151)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130252,7 +130639,7 @@ GameObject:
   - component: {fileID: 1527815967}
   m_Layer: 3
   m_Name: jungle-tree (52)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130386,7 +130773,7 @@ GameObject:
   - component: {fileID: 1542496168}
   m_Layer: 3
   m_Name: jungle-tree (123)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130520,7 +130907,7 @@ GameObject:
   - component: {fileID: 1545825091}
   m_Layer: 3
   m_Name: jungle-tree (22)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130655,7 +131042,7 @@ GameObject:
   - component: {fileID: 1547966637}
   m_Layer: 3
   m_Name: palmtree (6)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130827,7 +131214,7 @@ GameObject:
   - component: {fileID: 1557510274}
   m_Layer: 3
   m_Name: jungle-tree (8)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130961,7 +131348,7 @@ GameObject:
   - component: {fileID: 1563408598}
   m_Layer: 3
   m_Name: jungle-tree (185)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131095,7 +131482,7 @@ GameObject:
   - component: {fileID: 1564038135}
   m_Layer: 3
   m_Name: jungle-tree (191)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131229,7 +131616,7 @@ GameObject:
   - component: {fileID: 1566639107}
   m_Layer: 3
   m_Name: jungle-tree (67)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131363,7 +131750,7 @@ GameObject:
   - component: {fileID: 1570783762}
   m_Layer: 3
   m_Name: jungle-tree (1)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131497,7 +131884,7 @@ GameObject:
   - component: {fileID: 1580443839}
   m_Layer: 3
   m_Name: jungle-tree (164)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131631,7 +132018,7 @@ GameObject:
   - component: {fileID: 1582216757}
   m_Layer: 3
   m_Name: jungle-tree (51)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131766,7 +132153,7 @@ GameObject:
   - component: {fileID: 1592954738}
   m_Layer: 3
   m_Name: palmtree (10)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131938,7 +132325,7 @@ GameObject:
   - component: {fileID: 1607744845}
   m_Layer: 3
   m_Name: jungle-tree (58)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132072,7 +132459,7 @@ GameObject:
   - component: {fileID: 1624443934}
   m_Layer: 3
   m_Name: jungle-tree (161)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132206,7 +132593,7 @@ GameObject:
   - component: {fileID: 1633661043}
   m_Layer: 3
   m_Name: jungle-tree (87)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132326,6 +132713,70 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1636432363
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750507702112888300, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709990202345456837, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: m_Name
+      value: Hada1 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7109310788464824466, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      propertyPath: alRecolectarHada.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1344544063}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5709990202345456837, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 299525789}
+  m_SourcePrefab: {fileID: 100100000, guid: e4f1dc687898cb14ea755dc919749cb4, type: 3}
 --- !u!1 &1639301206
 GameObject:
   m_ObjectHideFlags: 0
@@ -132340,7 +132791,7 @@ GameObject:
   - component: {fileID: 1639301208}
   m_Layer: 3
   m_Name: jungle-tree (137)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132474,7 +132925,7 @@ GameObject:
   - component: {fileID: 1646346106}
   m_Layer: 3
   m_Name: jungle-tree (142)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132608,7 +133059,7 @@ GameObject:
   - component: {fileID: 1646704665}
   m_Layer: 3
   m_Name: jungle-tree (112)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132818,7 +133269,7 @@ GameObject:
   - component: {fileID: 1663059953}
   m_Layer: 3
   m_Name: jungle-tree (116)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132952,7 +133403,7 @@ GameObject:
   - component: {fileID: 1675031613}
   m_Layer: 3
   m_Name: jungle-tree (127)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133086,7 +133537,7 @@ GameObject:
   - component: {fileID: 1678449468}
   m_Layer: 3
   m_Name: jungle-tree (130)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133220,7 +133671,7 @@ GameObject:
   - component: {fileID: 1681841761}
   m_Layer: 3
   m_Name: jungle-tree (36)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133354,7 +133805,7 @@ GameObject:
   - component: {fileID: 1684038326}
   m_Layer: 3
   m_Name: jungle-tree
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133488,7 +133939,7 @@ GameObject:
   - component: {fileID: 1692505425}
   m_Layer: 3
   m_Name: jungle-tree (132)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133622,7 +134073,7 @@ GameObject:
   - component: {fileID: 1692936007}
   m_Layer: 3
   m_Name: jungle-tree (177)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133756,7 +134207,7 @@ GameObject:
   - component: {fileID: 1697463772}
   m_Layer: 3
   m_Name: jungle-tree (214)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133890,7 +134341,7 @@ GameObject:
   - component: {fileID: 1699063527}
   m_Layer: 3
   m_Name: jungle-tree (28)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -134010,6 +134461,134 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1700167184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1700167186}
+  - component: {fileID: 1700167185}
+  m_Layer: 0
+  m_Name: "M\xFAsica"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1700167185
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700167184}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: e4997b9810afd704f8596364a6f1043c, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1700167186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700167184}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.83189434, y: 4.2353463, z: -0.015510411}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1734350897
 GameObject:
   m_ObjectHideFlags: 0
@@ -134026,6 +134605,8 @@ GameObject:
   - component: {fileID: 1734350899}
   - component: {fileID: 1734350898}
   - component: {fileID: 1734350905}
+  - component: {fileID: 1734350906}
+  - component: {fileID: 1734350907}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemigo
@@ -134125,7 +134706,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0108023435, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -134136,7 +134717,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 2.9375}
+  m_Size: {x: 0.59569347, y: 2.9375}
   m_EdgeRadius: 0
 --- !u!50 &1734350902
 Rigidbody2D:
@@ -134245,6 +134826,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOffset: 0
+--- !u!114 &1734350906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734350897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f31f4cb60d1a0e649856f2f0610d38db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaMaxima: 2
+--- !u!114 &1734350907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734350897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 950a577b2bbaecd4197245a122b41899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigos:
+  - {fileID: 1734350897}
+  balsas:
+  - {fileID: 720533934}
 --- !u!1 &1759993331
 GameObject:
   m_ObjectHideFlags: 0
@@ -134259,7 +134869,7 @@ GameObject:
   - component: {fileID: 1759993333}
   m_Layer: 3
   m_Name: jungle-tree (188)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -134393,7 +135003,7 @@ GameObject:
   - component: {fileID: 1792134895}
   m_Layer: 3
   m_Name: jungle-tree (76)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -134527,7 +135137,7 @@ GameObject:
   - component: {fileID: 1794857261}
   m_Layer: 3
   m_Name: jungle-tree (189)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -134661,7 +135271,7 @@ GameObject:
   - component: {fileID: 1805432033}
   m_Layer: 3
   m_Name: jungle-tree (73)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -134795,7 +135405,7 @@ GameObject:
   - component: {fileID: 1816584414}
   m_Layer: 3
   m_Name: jungle-tree (153)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -134929,7 +135539,7 @@ GameObject:
   - component: {fileID: 1821448170}
   m_Layer: 3
   m_Name: jungle-tree (103)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -135063,7 +135673,7 @@ GameObject:
   - component: {fileID: 1831352352}
   m_Layer: 3
   m_Name: jungle-tree (53)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -135197,7 +135807,7 @@ GameObject:
   - component: {fileID: 1831700061}
   m_Layer: 3
   m_Name: jungle-tree (186)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -135331,7 +135941,7 @@ GameObject:
   - component: {fileID: 1833307129}
   m_Layer: 3
   m_Name: jungle-tree (207)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -135465,7 +136075,7 @@ GameObject:
   - component: {fileID: 1839552502}
   m_Layer: 3
   m_Name: jungle-tree (39)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -135599,7 +136209,7 @@ GameObject:
   - component: {fileID: 1846599169}
   m_Layer: 3
   m_Name: jungle-tree (101)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -135733,7 +136343,7 @@ GameObject:
   - component: {fileID: 1857328770}
   m_Layer: 3
   m_Name: jungle-tree (14)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -135867,7 +136477,7 @@ GameObject:
   - component: {fileID: 1858782243}
   m_Layer: 3
   m_Name: jungle-tree (74)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136001,7 +136611,7 @@ GameObject:
   - component: {fileID: 1860419262}
   m_Layer: 3
   m_Name: jungle-tree (139)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136135,7 +136745,7 @@ GameObject:
   - component: {fileID: 1863218507}
   m_Layer: 3
   m_Name: jungle-tree (136)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136269,7 +136879,7 @@ GameObject:
   - component: {fileID: 1872131569}
   m_Layer: 3
   m_Name: jungle-tree (32)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136403,7 +137013,7 @@ GameObject:
   - component: {fileID: 1873310112}
   m_Layer: 3
   m_Name: jungle-tree (169)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136537,7 +137147,7 @@ GameObject:
   - component: {fileID: 1879049579}
   m_Layer: 3
   m_Name: jungle-tree (44)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136671,7 +137281,7 @@ GameObject:
   - component: {fileID: 1883199543}
   m_Layer: 3
   m_Name: jungle-tree (65)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136805,7 +137415,7 @@ GameObject:
   - component: {fileID: 1886274627}
   m_Layer: 3
   m_Name: jungle-tree (213)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137020,7 +137630,6 @@ Transform:
   - {fileID: 1684038323}
   - {fileID: 1570783761}
   - {fileID: 2074686842}
-  - {fileID: 1224975946}
   - {fileID: 1498713683}
   - {fileID: 1107884391}
   - {fileID: 1181304733}
@@ -137237,6 +137846,109 @@ Transform:
   - {fileID: 976045659}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1906239099
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1360738304}
+    m_Modifications:
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 349
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 159.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407527404222401853, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846657800446404951, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_text
+      value: '0
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5903271487770201298, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
+      propertyPath: m_Name
+      value: ContadorDeHadasText
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 076f1b2fbba083646a9a5665853789da, type: 3}
 --- !u!1 &1919179027
 GameObject:
   m_ObjectHideFlags: 0
@@ -137251,7 +137963,7 @@ GameObject:
   - component: {fileID: 1919179029}
   m_Layer: 3
   m_Name: jungle-tree (159)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137385,7 +138097,7 @@ GameObject:
   - component: {fileID: 1919414102}
   m_Layer: 3
   m_Name: jungle-tree (144)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137519,7 +138231,7 @@ GameObject:
   - component: {fileID: 1934690404}
   m_Layer: 3
   m_Name: jungle-tree (70)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137653,7 +138365,7 @@ GameObject:
   - component: {fileID: 1946084214}
   m_Layer: 3
   m_Name: jungle-tree (10)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137787,7 +138499,7 @@ GameObject:
   - component: {fileID: 1956270805}
   m_Layer: 3
   m_Name: jungle-tree (171)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137921,7 +138633,7 @@ GameObject:
   - component: {fileID: 1963422850}
   m_Layer: 3
   m_Name: jungle-tree (59)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138055,7 +138767,7 @@ GameObject:
   - component: {fileID: 1963664645}
   m_Layer: 3
   m_Name: jungle-tree (163)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138189,7 +138901,7 @@ GameObject:
   - component: {fileID: 1966337433}
   m_Layer: 3
   m_Name: jungle-tree (56)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138323,7 +139035,7 @@ GameObject:
   - component: {fileID: 1983812492}
   m_Layer: 3
   m_Name: jungle-tree (203)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138552,7 +139264,7 @@ GameObject:
   - component: {fileID: 1989594142}
   m_Layer: 3
   m_Name: jungle-tree (141)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138686,7 +139398,7 @@ GameObject:
   - component: {fileID: 1989735424}
   m_Layer: 3
   m_Name: big-jungle-tree (2)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138820,7 +139532,7 @@ GameObject:
   - component: {fileID: 1991771019}
   m_Layer: 3
   m_Name: jungle-tree (122)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138954,7 +139666,7 @@ GameObject:
   - component: {fileID: 2011556935}
   m_Layer: 3
   m_Name: jungle-tree (97)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -139236,7 +139948,7 @@ GameObject:
   - component: {fileID: 2032718031}
   m_Layer: 3
   m_Name: jungle-tree (135)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -139370,7 +140082,7 @@ GameObject:
   - component: {fileID: 2034413562}
   m_Layer: 3
   m_Name: jungle-tree (108)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -139504,7 +140216,7 @@ GameObject:
   - component: {fileID: 2035809431}
   m_Layer: 3
   m_Name: jungle-tree (197)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -139832,7 +140544,7 @@ GameObject:
   - component: {fileID: 2064375245}
   m_Layer: 3
   m_Name: jungle-tree (40)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -139966,7 +140678,7 @@ GameObject:
   - component: {fileID: 2071429812}
   m_Layer: 3
   m_Name: jungle-tree (196)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140100,7 +140812,7 @@ GameObject:
   - component: {fileID: 2073905099}
   m_Layer: 3
   m_Name: jungle-tree (49)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140234,7 +140946,7 @@ GameObject:
   - component: {fileID: 2074686843}
   m_Layer: 3
   m_Name: jungle-tree (2)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140368,7 +141080,7 @@ GameObject:
   - component: {fileID: 2094804262}
   m_Layer: 3
   m_Name: jungle-tree (147)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140502,7 +141214,7 @@ GameObject:
   - component: {fileID: 2095739390}
   m_Layer: 3
   m_Name: jungle-tree (170)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140636,7 +141348,7 @@ GameObject:
   - component: {fileID: 2101907521}
   m_Layer: 3
   m_Name: jungle-tree (33)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140770,7 +141482,7 @@ GameObject:
   - component: {fileID: 2103799965}
   m_Layer: 3
   m_Name: jungle-tree (69)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140904,7 +141616,7 @@ GameObject:
   - component: {fileID: 2106322240}
   m_Layer: 3
   m_Name: jungle-tree (155)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141039,7 +141751,7 @@ GameObject:
   - component: {fileID: 2114980733}
   m_Layer: 3
   m_Name: palmtree (4)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141211,7 +141923,7 @@ GameObject:
   - component: {fileID: 2115907234}
   m_Layer: 3
   m_Name: jungle-tree (113)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141345,7 +142057,7 @@ GameObject:
   - component: {fileID: 2140406090}
   m_Layer: 3
   m_Name: jungle-tree (120)
-  m_TagString: Untagged
+  m_TagString: Arboles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141474,6 +142186,7 @@ SceneRoots:
   - {fileID: 1484615273}
   - {fileID: 1892361721}
   - {fileID: 153540006}
+  - {fileID: 720533933}
   - {fileID: 1889147223}
   - {fileID: 2055822740}
   - {fileID: 1082722647}
@@ -141486,4 +142199,6 @@ SceneRoots:
   - {fileID: 411387445}
   - {fileID: 2012078282}
   - {fileID: 1344544065}
-  - {fileID: 123148040}
+  - {fileID: 1700167186}
+  - {fileID: 1360738304}
+  - {fileID: 1636432363}

@@ -34,4 +34,22 @@ public abstract class Proyectil : MonoBehaviour
     }
 
     protected abstract void Mover();
+
+    // 🔹 Método de colisión
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Enemigo"))
+        {
+            // Buscar el componente de vida del enemigo
+            EnemigoVida vida = other.GetComponent<EnemigoVida>();
+            if (vida != null)
+            {
+                vida.RecibirDaño(1); // cada proyectil resta 1 de vida
+            }
+
+            // Desactivar proyectil al impactar
+            gameObject.SetActive(false);
+        }
+        
+    }
 }

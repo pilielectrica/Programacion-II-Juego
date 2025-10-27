@@ -11,24 +11,24 @@ public class Hada : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
-        { Debug.Log("Hada: disparando evento");
-            // 🔔 Lanza el evento al recolectar
-            alRecolectarHada.Invoke();
+        if (!other.CompareTag("Player")) return;
 
-            // 🎵 Reproduce sonido
+        Debug.Log("🧚‍♀️ Hada recolectada, disparando evento");
+
+        // 🔔 Lanza el evento al recolectar (ContadorDeHadas y ObjectPool deben estar conectados aquí)
+        alRecolectarHada?.Invoke();
+
+        // 🎵 Reproduce sonido
+        if (hadaAudioClip != null)
+        {
             GameObject audioObject = new GameObject("FairySound");
             AudioSource audioSource = audioObject.AddComponent<AudioSource>();
             audioSource.clip = hadaAudioClip;
             audioSource.Play();
             Destroy(audioObject, hadaAudioClip.length);
-
-            // 🧚‍♀️ Destruye el hada
-            Destroy(gameObject);
         }
+
+        // 🧹 Destruye el hada
+        Destroy(gameObject);
     }
 }
-
-
-
-

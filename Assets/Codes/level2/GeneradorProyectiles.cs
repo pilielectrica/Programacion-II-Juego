@@ -1,34 +1,38 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GeneradorProyectiles : MonoBehaviour
 {
-    [SerializeField] private float fuerzaDisparo = 10f; // velocidad del proyectil
+    [SerializeField] private float fuerzaDisparo = 10f;
+    [SerializeField] private Transform puntoDisparo;
+    [SerializeField] private Vector2 direccion = Vector2.right;
     private ObjectPool objectPool;
 
-    private void Awake()
+    void Awake()
     {
         objectPool = GetComponent<ObjectPool>();
     }
 
-    // Ahora recibe la posición desde la que disparar
-    public void Disparar(Vector2 direccion, Vector3 posicion)
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Disparar(direccion, puntoDisparo.position);
+        }
+    }
+
+    public void Disparar(Vector2 dir, Vector3 posicion)
     {
         GameObject proyectil = objectPool.GetPooledObject();
         if (proyectil == null) return;
 
-        // Poner en la posición que recibe
         proyectil.transform.position = posicion;
-        proyectil.SetActive(true); // <-- solo ahora se hace visible
 
-        // Ajustar flip según dirección
-        SpriteRenderer rend = proyectil.GetComponent<SpriteRenderer>();
-        if (rend != null)
-            rend.flipX = direccion.x < 0;
-
-        // Aplicar velocidad
         Rigidbody2D rb = proyectil.GetComponent<Rigidbody2D>();
         if (rb != null)
-            rb.velocity = direccion.normalized * fuerzaDisparo;
+            rb.velocity = dir.normalized * fuerzaDisparo;
+
+        SpriteRenderer sr = proyectil.GetComponent<SpriteRenderer>();
+        if (sr != null)
+            sr.enabled = true; // asegurar que se vea
     }
 }

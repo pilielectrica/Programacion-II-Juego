@@ -9,6 +9,7 @@ TagManager:
   - Door
   - Enemigo
   - Bazooka
+  - Arboles
   layers:
   - Default
   - TransparentFX
