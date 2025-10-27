@@ -11,7 +11,7 @@ public class BalsaMovimientoLoop : MonoBehaviour
     private bool subiendo = true;
 
     private Rigidbody2D rb;
-    private Transform jugadorEncima = null;
+    public Transform jugadorEncima = null;
 
     void Awake()
     {
@@ -22,8 +22,7 @@ public class BalsaMovimientoLoop : MonoBehaviour
         puntoInicial = rb.position;
         puntoDestino = puntoInicial + Vector2.up * distancia;
 
-        // Desactivamos solo el script de movimiento
-        this.enabled = false;
+      
     }
 
     void FixedUpdate()

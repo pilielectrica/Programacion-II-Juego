@@ -7,6 +7,17 @@ public class EnemigoVida : MonoBehaviour
     private int vidaMaxima = 2; // cantidad de impactos necesarios para "morir"
 
     private int vidaActual;
+    private EnemyManager enemyManager; // referencia al manager
+
+    private void Start()
+    {
+        // Buscar el EnemyManager en la escena
+        enemyManager = FindObjectOfType<EnemyManager>();
+        if (enemyManager == null)
+        {
+            Debug.LogWarning($"⚠️ No se encontró un EnemyManager en la escena para {gameObject.name}");
+        }
+    }
 
     private void OnEnable()
     {
@@ -29,6 +40,14 @@ public class EnemigoVida : MonoBehaviour
     private void Morir()
     {
         Debug.Log($"{gameObject.name} ha sido derrotado 💀");
-        gameObject.SetActive(false); // desactivar enemigo (puede volver al pool si usás uno)
+
+        // Avisar al manager
+        if (enemyManager != null)
+        {
+            enemyManager.EnemyKilled();
+        }
+
+        // Desactivar enemigo
+        gameObject.SetActive(false);
     }
 }
