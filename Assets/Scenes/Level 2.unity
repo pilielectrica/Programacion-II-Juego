@@ -139886,6 +139886,7 @@ GameObject:
   - component: {fileID: 1484615265}
   - component: {fileID: 1484615274}
   - component: {fileID: 1484615275}
+  - component: {fileID: 1484615276}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -140231,6 +140232,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colliderAgua: {fileID: 1239636550}
+--- !u!114 &1484615276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484615264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0bb0285475776d4091518db293ff5a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1498621986
 GameObject:
   m_ObjectHideFlags: 0
