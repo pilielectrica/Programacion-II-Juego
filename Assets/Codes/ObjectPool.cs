@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events; // 👈 importante para usar UnityEvent
 
 public class ObjectPool : MonoBehaviour
 {
@@ -8,6 +9,9 @@ public class ObjectPool : MonoBehaviour
 
     private List<GameObject> pooledObjects;
 
+    [Header("Evento al quedarse sin objetos")]
+    public UnityEvent onPoolEmpty; // 👈 nuevo evento
+
     void Awake()
     {
         pooledObjects = new List<GameObject>();
@@ -15,7 +19,7 @@ public class ObjectPool : MonoBehaviour
         for (int i = 0; i < poolSize; i++)
         {
             GameObject obj = Instantiate(objectPrefab);
-            obj.SetActive(false); // siempre inactivo hasta disparar
+            obj.SetActive(false);
             pooledObjects.Add(obj);
         }
     }
@@ -26,10 +30,14 @@ public class ObjectPool : MonoBehaviour
         {
             if (!obj.activeInHierarchy)
             {
-                obj.SetActive(true); // activamos al usar
+                obj.SetActive(true);
                 return obj;
             }
         }
+
+        // ⚠️ Si llegamos hasta acá, significa que no hay más objetos disponibles
+        Debug.LogWarning("⚠️ Pool vacío: no hay más objetos disponibles.");
+        onPoolEmpty?.Invoke(); // 👈 Dispara el evento
         return null;
     }
 }

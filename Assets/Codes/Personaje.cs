@@ -103,6 +103,15 @@ public class Mover : MonoBehaviour
             pasoAudioSource.PlayOneShot(pasosClips[indice]);
         }
     }
+    private void OnTriggerEnter2D(Collider2D other)
+{
+    if (other.CompareTag("agua"))
+    {
+        Debug.Log("Caíste al agua 🌊 (trigger). Volviendo al inicio...");
+        miRigidbody2D.transform.position = posicionInicial;
+    }
+}
+
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -142,6 +151,11 @@ public class Mover : MonoBehaviour
             Debug.Log("¡Perdiste! Colisionaste con el enemigo.");
             miRigidbody2D.transform.position = posicionInicial;
         }
+        if (collision.gameObject.CompareTag("agua"))
+{
+    Debug.Log("Caíste al agua 🌊, volviendo al inicio.");
+    miRigidbody2D.transform.position = posicionInicial;
+}
 
         // 💥 Bazooka
         if (collision.gameObject.CompareTag("Bazooka"))

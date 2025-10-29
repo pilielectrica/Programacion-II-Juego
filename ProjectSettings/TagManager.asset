@@ -10,6 +10,9 @@ TagManager:
   - Enemigo
   - Bazooka
   - Arboles
+  - agua
+  - Balsa
+  - Objetivo
   layers:
   - Default
   - TransparentFX

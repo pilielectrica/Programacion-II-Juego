@@ -34,5 +34,7 @@ public class GeneradorProyectiles : MonoBehaviour
         SpriteRenderer sr = proyectil.GetComponent<SpriteRenderer>();
         if (sr != null)
             sr.enabled = true; // asegurar que se vea
+
+            
     }
 }
