@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Mover : MonoBehaviour
 {
@@ -37,6 +38,9 @@ public class Mover : MonoBehaviour
     public Transform puntoBazooka; // Lugar donde se coloca el bazooka (ajustable en el inspector)
     private GameObject bazooka; // Referencia al bazooka recogido
     private SpriteRenderer bazookaRenderer; // Para cambiar sorting y flip
+
+    [Header("Evento cuando llegamos a la balsa")]
+    public UnityEvent pasarNivel;
 
     private void OnEnable()
     {
@@ -155,6 +159,11 @@ public class Mover : MonoBehaviour
 {
     Debug.Log("Caíste al agua 🌊, volviendo al inicio.");
     miRigidbody2D.transform.position = posicionInicial;
+}
+if (collision.gameObject.CompareTag("ObjetivoLevel1"))
+{
+    pasarNivel?.Invoke();
+
 }
 
         // 💥 Bazooka

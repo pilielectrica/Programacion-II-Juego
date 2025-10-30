@@ -13,6 +13,7 @@ TagManager:
   - agua
   - Balsa
   - Objetivo
+  - ObjetivoLevel1
   layers:
   - Default
   - TransparentFX
