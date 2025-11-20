@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class Proyectil : MonoBehaviour
+public abstract class ProyectilSi : MonoBehaviour
 {
     [SerializeField]
     [Range(1f, 30f)]

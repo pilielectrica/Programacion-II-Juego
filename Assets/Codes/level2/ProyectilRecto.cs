@@ -12,4 +12,5 @@ public class ProyectilRecto : Proyectil
         // Aplica la velocidad al Rigidbody
         rb.velocity = direction * speed;
     }
+
 }
