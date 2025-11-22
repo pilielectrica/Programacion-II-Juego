@@ -41,7 +41,7 @@ public class Mover : MonoBehaviour
 
     [Header("Evento cuando llegamos a la balsa")]
     public UnityEvent pasarNivel;
-
+    public bool BazookaTaken = false;
     private void OnEnable()
     {
         miRigidbody2D = GetComponent<Rigidbody2D>();
@@ -191,6 +191,7 @@ if (collision.gameObject.CompareTag("ObjetivoLevel1"))
             }
 
             Debug.Log("Bazooka ahora es hijo del jugador.");
+            BazookaTaken = true;
         }
     }
 

@@ -2,22 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Proyectil : MonoBehaviour
+public class Herir : MonoBehaviour
 {
-    [SerializeField]
-    [Range(1f, 30f)]
-    protected float speed = 10f;
+    // Variables a configurar desde el editor
+    [Header("Configuracion")]
+    [SerializeField] int puntos = 5;
 
-    protected Rigidbody2D rb;
-    private void Awake()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        rb = GetComponent<Rigidbody2D>();
+        
+           /* Jugador jugador = collision.gameObject.GetComponent<Jugador>();
+            jugador.ModificarVida(-puntos);
+            Debug.Log(" PUNTOS DE DAÑO REALIZADOS AL JUGADOR "+ puntos);
+            //Destroy(gameObject);*/
+            gameObject.SetActive(false);
+     
+        
     }
-
-    private void OnEnable()
-    {
-        Mover();
-    }
-
-    protected abstract void Mover();
 }

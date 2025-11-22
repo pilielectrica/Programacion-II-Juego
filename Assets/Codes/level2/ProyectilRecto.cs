@@ -7,10 +7,10 @@ public class ProyectilRecto : Proyectil
 
     protected override void Mover()
     {
-        // Establece la dirección del proyectil (por ejemplo, hacia la izquierda en X)
+     
+        // Establece la direcci�n del proyectil (por ejemplo, hacia la izquierda en X)
         Vector2 direction = Vector2.left;
         // Aplica la velocidad al Rigidbody
         rb.velocity = direction * speed;
     }
-
 }
