@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class GeneradorObjetoLoopWithPool : MonoBehaviour
 {
@@ -20,6 +21,13 @@ public class GeneradorObjetoLoopWithPool : MonoBehaviour
 
     [SerializeField] private Bazooka bazooka; // arrastrás tu bazooka en el inspector
 
+    private bool balasdisponibles = false;
+
+    [SerializeField] private ContadorDeHadas hadasContador;
+    private int balasDisparadas = 0;
+
+    [Header("Evento para restar un hada cuando disparamos")]
+    [SerializeField] public UnityEvent alDispararHada;
 
     private void Awake()
     {
@@ -27,28 +35,44 @@ public class GeneradorObjetoLoopWithPool : MonoBehaviour
     }
     void Update()
     {
+        Debug.Log("cantidad de balas disparadas: " + balasDisparadas);
+        Debug.Log("es posible disparar: " + balasdisponibles);
+
+        contadorBalas();
+
         if (player.BazookaTaken && Input.GetKeyDown(KeyCode.Space))
         {
-            if (!disparando)
+            if (!disparando && balasdisponibles)
             {
-                // 🔹 Empezar disparo
                 InvokeRepeating(nameof(GenerarObjetoLoop), tiempoEspera, tiempoIntervalo);
                 disparando = true;
                 Debug.Log("▶ Disparo iniciado");
+                
             }
             else
             {
-                // 🔹 Detener disparo
                 CancelInvoke(nameof(GenerarObjetoLoop));
                 disparando = false;
-                Debug.Log("⏹ Disparo detenido");
+                Debug.Log("⏹ Disparo detenido por tecla Space");
             }
         }
     }
 
 
+
     void GenerarObjetoLoop()
     {
+        // SI NO QUEDAN BALAS → DETENER DISPARO ACÁ
+        if (!balasdisponibles)
+        {
+            Debug.Log("❌ No quedan balas, deteniendo disparo...");
+            CancelInvoke(nameof(GenerarObjetoLoop));
+            disparando = false;
+            balasDisparadas--;
+            return;
+        }
+
+        // Si todavía quedan balas, seguís disparando
         GameObject pooledObject = objectPool.GetPooledObject(bazooka._mirandoDerecha);
 
         if (pooledObject != null)
@@ -57,6 +81,23 @@ public class GeneradorObjetoLoopWithPool : MonoBehaviour
             pooledObject.transform.rotation = Quaternion.identity;
             pooledObject.SetActive(true);
         }
+
+        balasDisparadas++; // cada bala consume una
+        alDispararHada?.Invoke();
+        
+
     }
 
+    void contadorBalas()
+    {
+        if (hadasContador.fairyCount == 0) { balasdisponibles = false; }
+        if (balasDisparadas < hadasContador.fairyCount)
+        {
+            balasdisponibles = true;
+        }
+        else
+        {
+            balasdisponibles = false;
+        }
+    }
 }

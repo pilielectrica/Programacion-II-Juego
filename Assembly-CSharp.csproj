@@ -73,6 +73,7 @@
     <Compile Include="Assets\Codes\Persistencia\PersistenceManager.cs" />
     <Compile Include="Assets\Codes\VictoryScene\ObjetivoPasarEscenaVictoria.cs" />
     <Compile Include="Assets\Codes\MovimientoEnemigo.cs" />
+    <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\Codes\PlayerProgression.cs" />
     <Compile Include="Assets\Codes\Personaje.cs" />
     <Compile Include="Assets\Codes\level2\SortingOrderByYGrid.cs" />

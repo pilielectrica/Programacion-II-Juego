@@ -15,6 +15,7 @@ TagManager:
   - Objetivo
   - ObjetivoLevel1
   - destruirproyectil
+  - Agua
   layers:
   - Default
   - TransparentFX
