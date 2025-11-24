@@ -35,8 +35,8 @@ public class GeneradorObjetoLoopWithPool : MonoBehaviour
     }
     void Update()
     {
-        Debug.Log("cantidad de balas disparadas: " + balasDisparadas);
-        Debug.Log("es posible disparar: " + balasdisponibles);
+       /* Debug.Log("cantidad de balas disparadas: " + balasDisparadas);
+        Debug.Log("es posible disparar: " + balasdisponibles);*/
 
         contadorBalas();
 

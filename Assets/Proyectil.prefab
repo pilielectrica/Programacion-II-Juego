@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7279182129469891462}
   - component: {fileID: -3363456040872397248}
-  - component: {fileID: 8009441769590670651}
+  - component: {fileID: 4453119287238980584}
   - component: {fileID: -6204359361019654381}
   - component: {fileID: 5844147852212942097}
   - component: {fileID: 869081232988552845}
@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
---- !u!114 &8009441769590670651
+--- !u!114 &4453119287238980584
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -61,7 +61,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c7efe20810db274290b26ca053b949c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puntos: 5
 --- !u!212 &-6204359361019654381
 SpriteRenderer:
   m_ObjectHideFlags: 0
