@@ -12,10 +12,12 @@ public class PersistenceManager : MonoBehaviour
     public static string KeyUser {get => Instance.keyUser; }
     public static string KeyScore { get => Instance.keyScore; }
 
+    public static string Vidas { get => Instance.vidas; }
+
      public static string LevelStatus { get => Instance.levelStatus; }
 
 
-    [SerializeField] private string keyMusic, keyVolume, keyUser, keyScore, levelStatus;
+    [SerializeField] private string keyMusic, keyVolume, keyUser, keyScore, levelStatus, vidas;
 
     
 
@@ -84,6 +86,7 @@ public class PersistenceManager : MonoBehaviour
     public void DeleteKey(string key)
     {
         PlayerPrefs.DeleteKey(key);
+        Debug.Log("vidas disponibles: " + Vidas);
     }
 
     public void DeleteAll()
@@ -112,4 +115,14 @@ public class PersistenceManager : MonoBehaviour
         SetBool(levelStatus, status);
         Debug.Log("Nivel 1 completado, estado: " + status);
     }
+    public void SaveVidas(int value)
+    {
+        SetInt(vidas, value);
+    }
+    public int GetVidas()
+    {
+        return GetInt(vidas, 3);
+        
+    }
+
 }

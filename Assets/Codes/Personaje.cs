@@ -44,6 +44,8 @@ public class Mover : MonoBehaviour
     [Header("Audios Play")]
     public UnityEvent playAudio;
     public bool BazookaTaken = false;
+
+    public bool ataqueEnemigo = false;
     private void OnEnable()
     {
         miRigidbody2D = GetComponent<Rigidbody2D>();
@@ -156,6 +158,7 @@ public class Mover : MonoBehaviour
         {
             Debug.Log("¡Perdiste! Colisionaste con el enemigo.");
             miRigidbody2D.transform.position = posicionInicial;
+            ataqueEnemigo = true;
         }
         if (collision.gameObject.CompareTag("agua"))
 {

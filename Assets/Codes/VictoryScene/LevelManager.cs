@@ -14,6 +14,7 @@ public class LevelManager : MonoBehaviour
     public void CargarLevel2()
     {
         SceneManager.LoadScene("Level 2");
+       
     }
 
     // 🔹 Volver al menú principal
@@ -27,5 +28,14 @@ public class LevelManager : MonoBehaviour
     {
         Debug.Log("Saliendo del juego...");
         Application.Quit();
+    }
+    public void ReloadEscena()
+    {
+        
+       
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name);
+        PersistenceManager.Instance.SaveVidas(3);
+        PersistenceManager.Instance.Save();
     }
 }
