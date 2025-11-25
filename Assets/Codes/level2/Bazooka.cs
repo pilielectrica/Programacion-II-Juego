@@ -13,4 +13,10 @@ public class Bazooka : MonoBehaviour
         direccionActual = mirandoDerecha ? Vector2.right : Vector2.left;
         _mirandoDerecha = mirandoDerecha;
     }
+
+    public void playAudioBazookaTaken()
+    {
+        AudioSource bazookaAudio = gameObject.GetComponent<AudioSource>();
+        if (bazookaAudio != null) bazookaAudio.Play();
+    }
 }

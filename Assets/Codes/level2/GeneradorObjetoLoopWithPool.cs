@@ -29,6 +29,8 @@ public class GeneradorObjetoLoopWithPool : MonoBehaviour
     [Header("Evento para restar un hada cuando disparamos")]
     [SerializeField] public UnityEvent alDispararHada;
 
+    [SerializeField] private AudioClip[] sonidosDeDisparo;
+
     private void Awake()
     {
         objectPool = GetComponent<ObjectPool>();
@@ -48,6 +50,11 @@ public class GeneradorObjetoLoopWithPool : MonoBehaviour
                 disparando = true;
                 Debug.Log("▶ Disparo iniciado");
                 
+
+             
+                
+
+
             }
             else
             {
@@ -71,7 +78,10 @@ public class GeneradorObjetoLoopWithPool : MonoBehaviour
             balasDisparadas--;
             return;
         }
+        AudioSource tiroAudio = GetComponent<AudioSource>();
+        int index = Random.Range(0, sonidosDeDisparo.Length);
 
+        tiroAudio.PlayOneShot(sonidosDeDisparo[index]);
         // Si todavía quedan balas, seguís disparando
         GameObject pooledObject = objectPool.GetPooledObject(bazooka._mirandoDerecha);
 

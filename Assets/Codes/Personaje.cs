@@ -41,6 +41,8 @@ public class Mover : MonoBehaviour
 
     [Header("Evento cuando llegamos a la balsa")]
     public UnityEvent pasarNivel;
+    [Header("Audios Play")]
+    public UnityEvent playAudio;
     public bool BazookaTaken = false;
     private void OnEnable()
     {
@@ -170,7 +172,7 @@ if (collision.gameObject.CompareTag("ObjetivoLevel1"))
         if (collision.gameObject.CompareTag("Bazooka"))
         {
             Debug.Log("Has recogido el bazooka");
-
+            playAudio?.Invoke();
             bazooka = collision.gameObject;
             bazookaRenderer = bazooka.GetComponent<SpriteRenderer>();
 
