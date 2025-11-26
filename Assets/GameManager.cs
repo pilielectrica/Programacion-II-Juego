@@ -8,14 +8,17 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-
+    CorazónVida corazon;
     private int vidas = 3;
     Mover personaje;
+    [SerializeField] private GameObject HUD;
 
     private void Start()
     {
         personaje = FindObjectOfType<Mover>();
+        corazon = FindObjectOfType<CorazónVida>();
         vidas = 3;
+        PersistenceManager.Instance.SaveVidas(3);
     }
     private void Awake()
     {
@@ -23,7 +26,7 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-            vidas = Mathf.Max(PlayerPrefs.GetInt("Vidas"), 0);
+            vidas = PersistenceManager.Instance.GetVidas();
         }
         else
         {
@@ -35,7 +38,7 @@ public class GameManager : MonoBehaviour
     {
         vidas -= ataqueEnemigo;
         PersistenceManager.Instance.SaveVidas(vidas);
-        personaje.ataqueEnemigo = false;
+        //personaje.ataqueEnemigo = false;
         if (vidas <= 0) { Derrota(); }
 
 
@@ -50,13 +53,17 @@ public class GameManager : MonoBehaviour
     void Derrota()
     {
         ResetTodo();
+        HUD.SetActive(false);
         SceneManager.LoadScene("Menu");
+        Debug.Log("derroooooooootaaaaaaaaaaa");
       
     }
     void ResetTodo()
     {
         PersistenceManager.Instance.SaveVidas(3);
+        vidas = PersistenceManager.Instance.GetVidas();
         PersistenceManager.Instance.Save();
     }
 
+    
 }

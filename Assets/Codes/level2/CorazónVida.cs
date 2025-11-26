@@ -9,29 +9,27 @@ public class CorazónVida : MonoBehaviour
     [Header("Evento que se dispara al perder una vida")]
     [SerializeField] public UnityEvent alPerderVida;
     [SerializeField] private int corazonActual;
-
+    int vidas;
     Mover personaje;
     // Start is called before the first frame update
     void Start()
     {
         personaje = FindObjectOfType<Mover>();
-        if (PersistenceManager.Instance.GetVidas() == corazonActual)
-        {
-            gameObject.SetActive(false);
-        }
+       
        
     }
 
-    // Update is called once per frame
-    void Update()
+    public void esconderCorazon(int _vidas)
     {
-        if (personaje.ataqueEnemigo)
+        if (_vidas == corazonActual)
         {
-            personaje.ataqueEnemigo = false;
-            alPerderVida?.Invoke();
-            gameObject.SetActive(false);
-
+           gameObject.SetActive(false);
         }
-
+       
+    }
+    private void Update()
+    { vidas = PersistenceManager.Instance.GetVidas();
+        esconderCorazon(vidas);
+        
     }
 }

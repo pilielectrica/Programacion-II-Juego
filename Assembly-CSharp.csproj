@@ -76,8 +76,10 @@
     <Compile Include="Assets\Codes\MovimientoEnemigo.cs" />
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\Codes\DontDestroyGeneradorHadas.cs" />
+    <Compile Include="Assets\Codes\ActivarHUD.cs" />
     <Compile Include="Assets\Codes\PlayerProgression.cs" />
     <Compile Include="Assets\Codes\Personaje.cs" />
+    <Compile Include="Assets\Codes\level2\ReestablecerVidas.cs" />
     <Compile Include="Assets\Codes\level2\SortingOrderByYGrid.cs" />
     <Compile Include="Assets\Codes\level2\CorazónVida.cs" />
     <Compile Include="Assets\Codes\level2\ObjectPool.cs" />
@@ -93,6 +95,7 @@
     <Compile Include="Assets\Codes\ContadorDeHadas.cs" />
     <Compile Include="Assets\Codes\VictoryScene\LevelManager.cs" />
     <Compile Include="Assets\Codes\PlayerProgressionData.cs" />
+    <Compile Include="Assets\Codes\ReactivarCorazones.cs" />
     <Compile Include="Assets\Codes\level2\ProyectilRectoRIGHT.cs" />
     <Compile Include="Assets\Codes\Hada.cs" />
     <Compile Include="Assets\Codes\level2\EnemigoVida.cs" />

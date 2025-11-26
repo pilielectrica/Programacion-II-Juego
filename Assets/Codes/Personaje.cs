@@ -55,6 +55,8 @@ public class Mover : MonoBehaviour
 
    private void Update()
 {
+        int vidas = PersistenceManager.Instance.GetVidas();
+        Debug.Log("vidas son: " + vidas);
     moverHorizontal = Input.GetAxis("Horizontal");
     moverVertical = Input.GetAxis("Vertical");
     direccion = new Vector2(moverHorizontal, moverVertical);
@@ -158,7 +160,7 @@ public class Mover : MonoBehaviour
         {
             Debug.Log("¡Perdiste! Colisionaste con el enemigo.");
             miRigidbody2D.transform.position = posicionInicial;
-            ataqueEnemigo = true;
+            GameManager.Instance.SubstractScore(1);
         }
         if (collision.gameObject.CompareTag("agua"))
 {
