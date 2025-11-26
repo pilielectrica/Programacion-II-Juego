@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Repos\\Programacion-II-Juego\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Repos\\Programacion-II-Juego\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\2D\\Sprite-Lit-Default.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\2D\\Sprite-Lit-Default.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|c:\\repos\\programacion-ii-juego\\assets\\codes\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\codes\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|c:\\repos\\programacion-ii-juego\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -95,14 +99,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PauseManager.cs",
-              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\PauseManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Codes\\PauseManager.cs",
-              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\PauseManager.cs",
-              "RelativeToolTip": "Assets\\Codes\\PauseManager.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T14:04:44.438Z",
+              "Title": "Sprite-Lit-Default.shader",
+              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\2D\\Sprite-Lit-Default.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\2D\\Sprite-Lit-Default.shader",
+              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\2D\\Sprite-Lit-Default.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\2D\\Sprite-Lit-Default.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-11-26T14:53:39.49Z",
               "EditorCaption": ""
             },
             {
@@ -115,7 +119,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "PauseManager.cs",
+              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\PauseManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Codes\\PauseManager.cs",
+              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\PauseManager.cs",
+              "RelativeToolTip": "Assets\\Codes\\PauseManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T14:04:44.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ChangeScene.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\ChangeScene.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\ChangeScene.cs",
@@ -127,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MenuManager.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\Persistencia\\MenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\Persistencia\\MenuManager.cs",
@@ -139,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PersistenceManager.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\Persistencia\\PersistenceManager.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\Persistencia\\PersistenceManager.cs",
@@ -151,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\GameManager.cs",
@@ -159,12 +176,11 @@
               "RelativeToolTip": "Assets\\GameManager.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAIwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T18:20:39.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T18:20:39.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "EnemyManager.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\EnemyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\EnemyManager.cs",
@@ -176,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "EnemigoVida.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\EnemigoVida.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\EnemigoVida.cs",
@@ -188,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Herir.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\Herir.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\Herir.cs",
@@ -200,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Personaje.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\Personaje.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\Personaje.cs",
@@ -212,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlayerCollisionManager.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\PlayerCollisionManager.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\PlayerCollisionManager.cs",
@@ -224,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ContadorDeHadas.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\ContadorDeHadas.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\ContadorDeHadas.cs",
@@ -236,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "GeneradorObjetoLoop.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\GeneradorObjetoLoop.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\GeneradorObjetoLoop.cs",
@@ -248,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Hada.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\Hada.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\Hada.cs",
@@ -260,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "GeneradorProyectiles.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\GeneradorProyectiles.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\GeneradorProyectiles.cs",
@@ -272,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ProyectilRectoRIGHT.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\ProyectilRectoRIGHT.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\ProyectilRectoRIGHT.cs",
@@ -284,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ProyectilRecto.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\ProyectilRecto.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\ProyectilRecto.cs",
@@ -296,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ObjectPool.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\ObjectPool.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\ObjectPool.cs",
@@ -308,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Bazooka.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\Bazooka.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\Bazooka.cs",
@@ -320,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "GeneradorObjetoLoopWithPool.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\GeneradorObjetoLoopWithPool.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\GeneradorObjetoLoopWithPool.cs",
@@ -332,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Proyectil.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\Proyectil.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\Proyectil.cs",
