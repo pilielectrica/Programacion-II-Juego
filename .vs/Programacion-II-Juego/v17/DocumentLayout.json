@@ -3,15 +3,39 @@
   "WorkspaceRootPath": "C:\\Repos\\Programacion-II-Juego\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\assets\\codes\\hada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\codes\\hada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\assets\\codes\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\codes\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|c:\\repos\\programacion-ii-juego\\assets\\codes\\victoryscene\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\assets\\codes\\contadordehadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\codes\\contadordehadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|c:\\repos\\programacion-ii-juego\\assets\\codes\\level2\\herir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\codes\\level2\\herir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|c:\\repos\\programacion-ii-juego\\assets\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\assets\\codes\\movimientoenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\codes\\movimientoenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\assets\\acrivarbotonplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\acrivarbotonplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\assets\\codes\\hada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\codes\\hada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\assets\\codes\\victoryscene\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\codes\\victoryscene\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,12 +47,8 @@
       "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\codes\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|c:\\repos\\programacion-ii-juego\\assets\\resetgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\assets\\resetgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\resetgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\assets\\codes\\activarhud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\assets\\codes\\donotdestroymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\codes\\donotdestroymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\assets\\acrivarbotonplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\acrivarbotonplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\assets\\codes\\level2\\coraz\u00F3nvida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,20 +111,12 @@
       "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\codes\\level2\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\assets\\codes\\level2\\herir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\codes\\level2\\herir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\assets\\codes\\level2\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\codes\\level2\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\assets\\codes\\generadorobjetoloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\codes\\generadorobjetoloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\assets\\codes\\contadordehadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|solutionrelative:assets\\codes\\contadordehadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C19F142-93F1-09A1-0830-47FE6CA696D6}|Assembly-CSharp.csproj|C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\Proyectil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -130,17 +138,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Personaje.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\Personaje.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\Personaje.cs",
               "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\Personaje.cs",
               "RelativeToolTip": "Assets\\Codes\\Personaje.cs",
-              "ViewState": "AgIAAMAAAAAAAAAAAAAmwDAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAqwKMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T01:39:49.825Z",
               "IsPinned": true,
@@ -148,20 +156,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LevelManager.cs",
-              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\VictoryScene\\LevelManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Codes\\VictoryScene\\LevelManager.cs",
-              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\VictoryScene\\LevelManager.cs",
-              "RelativeToolTip": "Assets\\Codes\\VictoryScene\\LevelManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\AudioManager.cs",
+              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\AudioManager.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T17:20:33.097Z",
+              "WhenOpened": "2025-11-27T17:26:31.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "Herir.cs",
+              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\Herir.cs",
+              "RelativeDocumentMoniker": "Assets\\Codes\\level2\\Herir.cs",
+              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\Herir.cs",
+              "RelativeToolTip": "Assets\\Codes\\level2\\Herir.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T23:22:08.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "PauseManager.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\PauseManager.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\PauseManager.cs",
@@ -169,12 +190,11 @@
               "RelativeToolTip": "Assets\\Codes\\PauseManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T14:04:44.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T14:04:44.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "ReactivarCorazones.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\ReactivarCorazones.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\ReactivarCorazones.cs",
@@ -182,16 +202,36 @@
               "RelativeToolTip": "Assets\\Codes\\ReactivarCorazones.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T17:50:55.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2025-11-26T17:50:55.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "ContadorDeHadas.cs",
+              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\ContadorDeHadas.cs",
+              "RelativeDocumentMoniker": "Assets\\Codes\\ContadorDeHadas.cs",
+              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\ContadorDeHadas.cs",
+              "RelativeToolTip": "Assets\\Codes\\ContadorDeHadas.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T18:03:12.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovimientoEnemigo.cs",
+              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\MovimientoEnemigo.cs",
+              "RelativeDocumentMoniker": "Assets\\Codes\\MovimientoEnemigo.cs",
+              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\MovimientoEnemigo.cs",
+              "RelativeToolTip": "Assets\\Codes\\MovimientoEnemigo.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:12:52.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ResetGame.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\ResetGame.cs",
               "RelativeDocumentMoniker": "Assets\\ResetGame.cs",
@@ -199,21 +239,19 @@
               "RelativeToolTip": "Assets\\ResetGame.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T23:28:33.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T23:28:33.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Hada.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\Hada.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\Hada.cs",
               "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\Hada.cs",
               "RelativeToolTip": "Assets\\Codes\\Hada.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBoAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T18:01:52.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T18:01:52.497Z"
             },
             {
               "$type": "Document",
@@ -223,63 +261,37 @@
               "RelativeDocumentMoniker": "Assets\\GameManager.cs",
               "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\GameManager.cs",
               "RelativeToolTip": "Assets\\GameManager.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBYAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T18:20:39.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T18:20:39.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ActivarHUD.cs",
-              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\ActivarHUD.cs",
-              "RelativeDocumentMoniker": "Assets\\Codes\\ActivarHUD.cs",
-              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\ActivarHUD.cs",
-              "RelativeToolTip": "Assets\\Codes\\ActivarHUD.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAABvAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "acrivarBotonPlay.cs",
+              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\acrivarBotonPlay.cs",
+              "RelativeDocumentMoniker": "Assets\\acrivarBotonPlay.cs",
+              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\acrivarBotonPlay.cs",
+              "RelativeToolTip": "Assets\\acrivarBotonPlay.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T17:24:42.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PersistenceManager.cs",
-              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\Persistencia\\PersistenceManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Codes\\Persistencia\\PersistenceManager.cs",
-              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\Persistencia\\PersistenceManager.cs",
-              "RelativeToolTip": "Assets\\Codes\\Persistencia\\PersistenceManager.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwHoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T18:24:04.653Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DoNotDestroyManager.cs",
-              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\DoNotDestroyManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Codes\\DoNotDestroyManager.cs",
-              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\DoNotDestroyManager.cs",
-              "RelativeToolTip": "Assets\\Codes\\DoNotDestroyManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T21:51:21.021Z"
+              "WhenOpened": "2025-11-26T19:19:23.599Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ChangeScene.cs",
-              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\ChangeScene.cs",
-              "RelativeDocumentMoniker": "Assets\\Codes\\ChangeScene.cs",
-              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\ChangeScene.cs",
-              "RelativeToolTip": "Assets\\Codes\\ChangeScene.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAABIAAAAAAAAAA==",
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\VictoryScene\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Codes\\VictoryScene\\LevelManager.cs",
+              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\VictoryScene\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\Codes\\VictoryScene\\LevelManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T18:30:41.549Z"
+              "WhenOpened": "2025-11-26T17:20:33.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "CanvasScalerEditor.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Editor\\UI\\CanvasScalerEditor.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Editor\\UI\\CanvasScalerEditor.cs",
@@ -292,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Sprite-Lit-Default.shader",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\2D\\Sprite-Lit-Default.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.12\\Shaders\\2D\\Sprite-Lit-Default.shader",
@@ -304,8 +316,60 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 12,
+              "Title": "ActivarHUD.cs",
+              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\ActivarHUD.cs",
+              "RelativeDocumentMoniker": "Assets\\Codes\\ActivarHUD.cs",
+              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\ActivarHUD.cs",
+              "RelativeToolTip": "Assets\\Codes\\ActivarHUD.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T17:24:42.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PersistenceManager.cs",
+              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\Persistencia\\PersistenceManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Codes\\Persistencia\\PersistenceManager.cs",
+              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\Persistencia\\PersistenceManager.cs",
+              "RelativeToolTip": "Assets\\Codes\\Persistencia\\PersistenceManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwHoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T18:24:04.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DoNotDestroyManager.cs",
+              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\DoNotDestroyManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Codes\\DoNotDestroyManager.cs",
+              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\DoNotDestroyManager.cs",
+              "RelativeToolTip": "Assets\\Codes\\DoNotDestroyManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T21:51:21.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChangeScene.cs",
+              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\ChangeScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Codes\\ChangeScene.cs",
+              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\ChangeScene.cs",
+              "RelativeToolTip": "Assets\\Codes\\ChangeScene.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T18:30:41.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "GeneradorProyectiles.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\GeneradorProyectiles.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\GeneradorProyectiles.cs",
@@ -313,24 +377,11 @@
               "RelativeToolTip": "Assets\\Codes\\level2\\GeneradorProyectiles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T02:46:49.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T02:46:49.945Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "acrivarBotonPlay.cs",
-              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\acrivarBotonPlay.cs",
-              "RelativeDocumentMoniker": "Assets\\acrivarBotonPlay.cs",
-              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\acrivarBotonPlay.cs",
-              "RelativeToolTip": "Assets\\acrivarBotonPlay.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T19:19:23.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Coraz\u00F3nVida.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\Coraz\u00F3nVida.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\Coraz\u00F3nVida.cs",
@@ -342,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "ReestablecerVidas.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\ReestablecerVidas.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\ReestablecerVidas.cs",
@@ -354,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "MenuManager.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\Persistencia\\MenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\Persistencia\\MenuManager.cs",
@@ -366,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "EnemyManager.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\EnemyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\EnemyManager.cs",
@@ -378,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "EnemigoVida.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\EnemigoVida.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\EnemigoVida.cs",
@@ -391,18 +442,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "Herir.cs",
-              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\Herir.cs",
-              "RelativeDocumentMoniker": "Assets\\Codes\\level2\\Herir.cs",
-              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\Herir.cs",
-              "RelativeToolTip": "Assets\\Codes\\level2\\Herir.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAYwAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T23:22:08.367Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "PlayerCollisionManager.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\PlayerCollisionManager.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\PlayerCollisionManager.cs",
@@ -414,19 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ContadorDeHadas.cs",
-              "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\ContadorDeHadas.cs",
-              "RelativeDocumentMoniker": "Assets\\Codes\\ContadorDeHadas.cs",
-              "ToolTip": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\ContadorDeHadas.cs",
-              "RelativeToolTip": "Assets\\Codes\\ContadorDeHadas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T18:03:12.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "GeneradorObjetoLoop.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\GeneradorObjetoLoop.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\GeneradorObjetoLoop.cs",
@@ -438,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "ProyectilRectoRIGHT.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\ProyectilRectoRIGHT.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\ProyectilRectoRIGHT.cs",
@@ -450,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "ProyectilRecto.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\ProyectilRecto.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\ProyectilRecto.cs",
@@ -462,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "ObjectPool.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\ObjectPool.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\ObjectPool.cs",
@@ -474,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "Bazooka.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\Bazooka.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\Bazooka.cs",
@@ -486,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "GeneradorObjetoLoopWithPool.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\GeneradorObjetoLoopWithPool.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\GeneradorObjetoLoopWithPool.cs",
@@ -498,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Proyectil.cs",
               "DocumentMoniker": "C:\\Repos\\Programacion-II-Juego\\Assets\\Codes\\level2\\Proyectil.cs",
               "RelativeDocumentMoniker": "Assets\\Codes\\level2\\Proyectil.cs",

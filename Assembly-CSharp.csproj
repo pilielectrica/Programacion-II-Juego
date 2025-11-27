@@ -104,6 +104,7 @@
     <Compile Include="Assets\Codes\EnemigoPerseguir.cs" />
     <Compile Include="Assets\Codes\level2\AnimacionInicio.cs" />
     <Compile Include="Assets\Codes\PlataformaMovil.cs" />
+    <Compile Include="Assets\AudioManager.cs" />
     <Compile Include="Assets\Codes\level2\Bazooka.cs" />
     <Compile Include="Assets\Codes\level2\BalsaMovimientoHorizontalLoop.cs" />
   </ItemGroup>

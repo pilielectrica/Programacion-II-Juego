@@ -61,6 +61,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c7efe20810db274290b26ca053b949c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  sonidosImpacto:
+  - {fileID: 8300000, guid: 60b4b17ce4c93a84d919a7f9be2d1ad6, type: 3}
+  - {fileID: 8300000, guid: e807c641b5a1e6249a18f4078db483a9, type: 3}
+  - {fileID: 8300000, guid: c3f9dc375a734cb43bb04417964f5793, type: 3}
+  - {fileID: 8300000, guid: a1b98c11c8932c24ab33699dfb826820, type: 3}
+  - {fileID: 8300000, guid: 499676e785bfef546a76a322d4d84f33, type: 3}
+  - {fileID: 8300000, guid: ae24933e94aaf234d95e3c362915da6b, type: 3}
+  - {fileID: 8300000, guid: 38be1cce3d3f7384c965c93be53a89d6, type: 3}
+  - {fileID: 8300000, guid: 16b3d62659165f94f9ea1a80b6095f22, type: 3}
 --- !u!212 &-6204359361019654381
 SpriteRenderer:
   m_ObjectHideFlags: 0

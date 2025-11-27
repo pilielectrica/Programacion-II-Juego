@@ -19,8 +19,8 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        PlayerPrefs.DeleteAll();
-        PlayerPrefs.Save();
+        /*PlayerPrefs.DeleteAll();
+        PlayerPrefs.Save();*/
     }
 
     private void Start()

@@ -24,8 +24,8 @@ public class ContadorDeHadas : MonoBehaviour
 
         Debug.Log("El contador de hadas va: " + fairyCount);
 
-        // Disparar evento de recolectar
-        onFairyCollected?.Invoke();
+        
+        
     }
 
     // Se llama al disparar un proyectil / usar un hada
@@ -36,7 +36,7 @@ public class ContadorDeHadas : MonoBehaviour
     ActualizarTexto();
 
     Debug.Log("Hadass usadas. Quedan: " + fairyCount);
-    onFairyUsed?.Invoke();
+    
 }
 
 

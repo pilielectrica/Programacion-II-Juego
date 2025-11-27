@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class acrivarBotonPlay : MonoBehaviour
 {
-    [SerializeField] private GameObject boton;
+    [SerializeField] private GameObject botonPlay;
+    [SerializeField] private GameObject botonSalir;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,8 +17,9 @@ public class acrivarBotonPlay : MonoBehaviour
     {
         
     }
-    public void activarBotonPlay()
+    public void activarBotones()
     {
-        boton.SetActive(true);
+        botonPlay.SetActive(true);
+        botonSalir.SetActive(true);
     }
 }
