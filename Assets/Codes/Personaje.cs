@@ -172,6 +172,7 @@ public class Mover : MonoBehaviour
 }
 if (collision.gameObject.CompareTag("ObjetivoLevel1"))
 {
+            PersistenceManager.Instance.SaveLevel(true);
     pasarNivel?.Invoke();
             
           

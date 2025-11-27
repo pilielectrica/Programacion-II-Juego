@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ResetGame : MonoBehaviour
 {
-    public bool Victory = false;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +19,7 @@ public class ResetGame : MonoBehaviour
     }
     public void volverAlMenu()
     {
-        Victory = true;
+       
         SceneManager.LoadScene("Menu");
     }
     public void Salir()

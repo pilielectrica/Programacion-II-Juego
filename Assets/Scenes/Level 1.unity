@@ -115977,6 +115977,7 @@ MonoBehaviour:
   puerta: {fileID: 180931233}
   posicionVictoria: {x: -0.8, y: 7.36, z: 0}
   posicionInicial: {x: -6.08, y: 0.99, z: 0}
+  posicionInicial2: {x: 0, y: 0, z: 0}
   experienceValue: 1
   puntoBazooka: {fileID: 0}
   pasarNivel:
@@ -115984,7 +115985,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 397844016}
         m_TargetAssemblyTypeName: CambiarEscena, Assembly-CSharp
-        m_MethodName: IrASiguienteEscena
+        m_MethodName: CargarLevel2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

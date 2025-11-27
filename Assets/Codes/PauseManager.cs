@@ -14,7 +14,7 @@ public class PauseManager : MonoBehaviour
         {
             PausarJuego();
         }
-        if (SceneManager.GetActiveScene().name == "Victory")
+        if (SceneManager.GetActiveScene().name == "Victory" || SceneManager.GetActiveScene().name == "Menu" )
             {
             panelPausa.SetActive(false);
 

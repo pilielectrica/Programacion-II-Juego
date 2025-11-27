@@ -5,23 +5,14 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
     private AudioSource audioSource;
+    [SerializeField] private List<AudioClip> sonidosImpacto;
 
     void Awake()
     {
-        // Singleton simple
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject); // permanece en todas las escenas
-        }
-        else
-        {
-            Destroy(gameObject);
-            return;
-        }
-
+        Instance = this; // NECESARIO
         audioSource = GetComponent<AudioSource>();
     }
+
 
     public void PlaySound(AudioClip clip)
     {
@@ -29,11 +20,11 @@ public class AudioManager : MonoBehaviour
             audioSource.PlayOneShot(clip);
     }
 
-    public void PlayRandom(List<AudioClip> clips)
+    public void PlayRandomImpactSounds()
     {
-        if (clips.Count == 0) return;
+        if (sonidosImpacto.Count == 0) return;
 
-        int index = Random.Range(0, clips.Count);
-        PlaySound(clips[index]);
+        int index = Random.Range(0, sonidosImpacto.Count);
+        PlaySound(sonidosImpacto[index]);
     }
 }

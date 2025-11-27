@@ -19,8 +19,9 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        /*PlayerPrefs.DeleteAll();
-        PlayerPrefs.Save();*/
+        // estas dos lineas las uso para borrar lo guardado aunque no se si funciona
+        //PlayerPrefs.DeleteAll();
+        //PlayerPrefs.Save();
     }
 
     private void Start()
@@ -29,6 +30,7 @@ public class GameManager : MonoBehaviour
         vidas = PersistenceManager.Instance != null
             ? PersistenceManager.Instance.GetVidas()
             : 3;
+        
 
         Debug.Log("Vidas cargadas: " + vidas);
     }

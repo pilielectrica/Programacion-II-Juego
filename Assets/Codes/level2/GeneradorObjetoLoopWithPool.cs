@@ -101,13 +101,10 @@ public class GeneradorObjetoLoopWithPool : MonoBehaviour
     void contadorBalas()
     {
         if (hadasContador.fairyCount == 0) { balasdisponibles = false; }
-        if (balasDisparadas < hadasContador.fairyCount)
-        {
-            balasdisponibles = true;
-        }
+        
         else
         {
-            balasdisponibles = false;
+            balasdisponibles = true;
         }
     }
 }

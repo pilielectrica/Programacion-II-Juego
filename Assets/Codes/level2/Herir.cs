@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class Herir : MonoBehaviour
 {
     
-    [SerializeField] private List<AudioClip> sonidosImpacto;
+    
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -15,7 +15,7 @@ public class Herir : MonoBehaviour
          jugador.ModificarVida(-puntos);
          Debug.Log(" PUNTOS DE DAÑO REALIZADOS AL JUGADOR "+ puntos);
          //Destroy(gameObject);*/
-        gameObject.SetActive(false);
+       
 
         if (collision.collider.CompareTag("Enemigo"))
         {
@@ -25,12 +25,12 @@ public class Herir : MonoBehaviour
             Debug.Log("colisiono hadita con enemigo");
 
             // ▶ Reproducir sonido aleatorio
-            AudioManager.Instance.PlayRandom(sonidosImpacto);
-
-            gameObject.SetActive(false);
+            AudioManager.Instance.PlayRandomImpactSounds();
+            
+            
         }
 
-
+          gameObject.SetActive(false);
 
 
     }

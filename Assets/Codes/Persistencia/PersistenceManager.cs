@@ -16,9 +16,10 @@ public class PersistenceManager : MonoBehaviour
     public static string Vidas { get => Instance.vidas; }
 
      public static string LevelStatus { get => Instance.levelStatus; }
+    public static string VictoryStatus { get => Instance.victoryStatus; }
 
 
-    [SerializeField] private string keyMusic, keyVolume, levelStatus, keyUser, keyScore, vidas;
+    [SerializeField] private string keyMusic, keyVolume, levelStatus, keyUser, keyScore, vidas, victoryStatus;
 
     
 
@@ -116,6 +117,11 @@ public class PersistenceManager : MonoBehaviour
         SetBool(levelStatus, status);
         Debug.Log("Nivel 1 completado, estado: " + status);
     }
+    public void SaveVictoryStatus(bool _victoryStatus)
+    {
+        SetBool(victoryStatus, _victoryStatus);
+        Debug.Log("alcanzaste la victoria, bool pasa a: " + _victoryStatus);
+    }
     public void SaveVidas(int value)
     {
         SetInt(vidas, value);
@@ -129,6 +135,9 @@ public class PersistenceManager : MonoBehaviour
     {
         return GetBool(levelStatus, false);
     }
-        
+    public bool getVictoryStatus()
+    {
+        return GetBool(victoryStatus, false);
+    }
 
 }
