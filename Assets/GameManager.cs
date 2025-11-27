@@ -1,49 +1,50 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting.Antlr3.Runtime;
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.SceneManagement;
-
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-    CorazónVida corazon;
-    private int vidas = 3;
-    Mover personaje;
+
+    private int vidas;
     [SerializeField] private GameObject HUD;
 
-    private void Start()
-    {
-        personaje = FindObjectOfType<Mover>();
-        corazon = FindObjectOfType<CorazónVida>();
-        vidas = 3;
-        PersistenceManager.Instance.SaveVidas(3);
-    }
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-            vidas = PersistenceManager.Instance.GetVidas();
         }
         else
         {
             Destroy(gameObject);
         }
+        PlayerPrefs.DeleteAll();
+        PlayerPrefs.Save();
+    }
+
+    private void Start()
+    {
+        // Ahora SI PersistenceManager ya existe
+        vidas = PersistenceManager.Instance != null
+            ? PersistenceManager.Instance.GetVidas()
+            : 3;
+
+        Debug.Log("Vidas cargadas: " + vidas);
     }
 
     public void SubstractScore(int ataqueEnemigo)
     {
+        Debug.Log("VIDAS ANTES DE RESTAR: " + vidas);
+
         vidas -= ataqueEnemigo;
+
+        Debug.Log("VIDAS DESPUES DE RESTAR: " + vidas);
+
         PersistenceManager.Instance.SaveVidas(vidas);
-        //personaje.ataqueEnemigo = false;
-        if (vidas <= 0) { Derrota(); }
 
-
+        if (vidas <= 0) Derrota();
     }
-
 
     public int GetVidas()
     {
@@ -56,14 +57,13 @@ public class GameManager : MonoBehaviour
         HUD.SetActive(false);
         SceneManager.LoadScene("Menu");
         Debug.Log("derroooooooootaaaaaaaaaaa");
-      
-    }
-    void ResetTodo()
-    {
-        PersistenceManager.Instance.SaveVidas(3);
-        vidas = PersistenceManager.Instance.GetVidas();
-        PersistenceManager.Instance.Save();
     }
 
-    
+   public void ResetTodo()
+    {
+        PersistenceManager.Instance.SaveVidas(3);
+        PersistenceManager.Instance.SaveLevel(false);
+        vidas = 3;
+        PersistenceManager.Instance.Save();
+    }
 }

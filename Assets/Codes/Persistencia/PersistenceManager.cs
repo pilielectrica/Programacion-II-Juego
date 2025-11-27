@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PersistenceManager : MonoBehaviour
 {
+
     public static PersistenceManager Instance { get; private set; }
 
     public static string KeyMusic { get => Instance.keyMusic; }
@@ -17,7 +18,7 @@ public class PersistenceManager : MonoBehaviour
      public static string LevelStatus { get => Instance.levelStatus; }
 
 
-    [SerializeField] private string keyMusic, keyVolume, keyUser, keyScore, levelStatus, vidas;
+    [SerializeField] private string keyMusic, keyVolume, levelStatus, keyUser, keyScore, vidas;
 
     
 
@@ -124,5 +125,10 @@ public class PersistenceManager : MonoBehaviour
         return GetInt(vidas, 3);
         
     }
+    public bool getLevel2()
+    {
+        return GetBool(levelStatus, false);
+    }
+        
 
 }

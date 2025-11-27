@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PauseManager : MonoBehaviour
 {
     [Header("Panel de Pausa")]
@@ -13,6 +13,11 @@ public class PauseManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             PausarJuego();
+        }
+        if (SceneManager.GetActiveScene().name == "Victory")
+            {
+            panelPausa.SetActive(false);
+
         }
     }
 

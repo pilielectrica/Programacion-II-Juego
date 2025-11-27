@@ -19,18 +19,23 @@ public class ReactivarCorazones : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name != "Menu")
         {
-               if (PersistenceManager.Instance.GetVidas() == 3)
-        {
-            corazon1.SetActive(true);
-            corazon2.SetActive(true);
-            
-        }
-        else if (PersistenceManager.Instance.GetVidas() == 2)
-        {
-            corazon2.SetActive(true);
+            if (PersistenceManager.Instance.GetVidas() == 3)
+            {
+                corazon1.SetActive(true);
+                corazon2.SetActive(true);
+
+            }
+            else if (PersistenceManager.Instance.GetVidas() == 2)
+            {
+                corazon2.SetActive(true);
+
+            }
 
         }
-
+        else if (PersistenceManager.Instance.GetVidas() == 1)
+        {
+            corazon1.SetActive(false);
+            corazon1.SetActive(false);
         }
         
     }

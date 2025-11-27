@@ -24,6 +24,8 @@ public class Hada : MonoBehaviour
             GameObject audioObject = new GameObject("FairySound");
             AudioSource audioSource = audioObject.AddComponent<AudioSource>();
             audioSource.clip = hadaAudioClip;
+            audioSource.volume = 0.4f;
+
             audioSource.Play();
             Destroy(audioObject, hadaAudioClip.length);
         }

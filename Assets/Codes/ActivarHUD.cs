@@ -16,12 +16,12 @@ public class ActivarHUD : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        string escenactual = "Level 1";
-        if (SceneManager.GetActiveScene().name == escenactual)
+        
+        if (SceneManager.GetActiveScene().name == "Level 1" || SceneManager.GetActiveScene().name == "Level 2")
         { 
             HUD.SetActive(true);
         }
-        else if (SceneManager.GetActiveScene().name == "Menu")
+        else if (SceneManager.GetActiveScene().name == "Menu" || SceneManager.GetActiveScene().name == "Victory")
         {
             HUD.SetActive(false);
         }

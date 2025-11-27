@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -32,6 +33,7 @@ public class Mover : MonoBehaviour
 
     [Header("Posiciones")]
     public Vector3 posicionInicial;
+    public Vector3 posicionInicial2;
     public int experienceValue;
 
     [Header("Bazooka")]
@@ -55,8 +57,7 @@ public class Mover : MonoBehaviour
 
    private void Update()
 {
-        int vidas = PersistenceManager.Instance.GetVidas();
-        Debug.Log("vidas son: " + vidas);
+      
     moverHorizontal = Input.GetAxis("Horizontal");
     moverVertical = Input.GetAxis("Vertical");
     direccion = new Vector2(moverHorizontal, moverVertical);
@@ -115,10 +116,10 @@ public class Mover : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
 {
-    if (other.CompareTag("agua"))
+    if (other.CompareTag("Agua"))
     {
         Debug.Log("Caíste al agua 🌊 (trigger). Volviendo al inicio...");
-        miRigidbody2D.transform.position = posicionInicial;
+        miRigidbody2D.transform.position = posicionInicial2;
     }
 }
 
@@ -161,8 +162,10 @@ public class Mover : MonoBehaviour
             Debug.Log("¡Perdiste! Colisionaste con el enemigo.");
             miRigidbody2D.transform.position = posicionInicial;
             GameManager.Instance.SubstractScore(1);
+            Debug.Log("colisionando con enemigo");
+            
         }
-        if (collision.gameObject.CompareTag("agua"))
+        if (collision.gameObject.CompareTag("Agua"))
 {
     Debug.Log("Caíste al agua 🌊, volviendo al inicio.");
     miRigidbody2D.transform.position = posicionInicial;
@@ -170,6 +173,8 @@ public class Mover : MonoBehaviour
 if (collision.gameObject.CompareTag("ObjetivoLevel1"))
 {
     pasarNivel?.Invoke();
+            
+          
 
 }
 

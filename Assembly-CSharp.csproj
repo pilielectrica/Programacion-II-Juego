@@ -67,6 +67,7 @@
     <Compile Include="Assets\Codes\ChangeScene.cs" />
     <Compile Include="Assets\Codes\level2\Herir.cs" />
     <Compile Include="Assets\Codes\HUDHadas.cs" />
+    <Compile Include="Assets\acrivarBotonPlay.cs" />
     <Compile Include="Assets\Codes\level2\ProyectilRecto.cs" />
     <Compile Include="Assets\Codes\Persistencia\MenuManager.cs" />
     <Compile Include="Assets\Codes\level2\EnemyManager.cs" />
@@ -91,6 +92,7 @@
     <Compile Include="Assets\Codes\DoNotDestroyManager.cs" />
     <Compile Include="Assets\Codes\level2\Proyectil.cs" />
     <Compile Include="Assets\Codes\PauseManager.cs" />
+    <Compile Include="Assets\ResetGame.cs" />
     <Compile Include="Assets\Codes\level2\BalsaMovimiento.cs" />
     <Compile Include="Assets\Codes\ContadorDeHadas.cs" />
     <Compile Include="Assets\Codes\VictoryScene\LevelManager.cs" />
