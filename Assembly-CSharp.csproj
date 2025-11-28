@@ -73,6 +73,7 @@
     <Compile Include="Assets\Codes\level2\EnemyManager.cs" />
     <Compile Include="Assets\Codes\level2\SortingOrderByY.cs" />
     <Compile Include="Assets\Codes\Persistencia\PersistenceManager.cs" />
+    <Compile Include="Assets\activateSistemaParticulasBoton.cs" />
     <Compile Include="Assets\Codes\VictoryScene\ObjetivoPasarEscenaVictoria.cs" />
     <Compile Include="Assets\Codes\MovimientoEnemigo.cs" />
     <Compile Include="Assets\GameManager.cs" />
@@ -92,6 +93,7 @@
     <Compile Include="Assets\Codes\DoNotDestroyManager.cs" />
     <Compile Include="Assets\Codes\level2\Proyectil.cs" />
     <Compile Include="Assets\Codes\PauseManager.cs" />
+    <Compile Include="Assets\HabiltarDeshabilitar.cs" />
     <Compile Include="Assets\ResetGame.cs" />
     <Compile Include="Assets\Codes\level2\BalsaMovimiento.cs" />
     <Compile Include="Assets\Codes\ContadorDeHadas.cs" />

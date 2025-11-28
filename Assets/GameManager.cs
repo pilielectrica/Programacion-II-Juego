@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        // estas dos lineas las uso para borrar lo guardado aunque no se si funciona
+        // estas dos lineas las uso para borrar lo guardado
         //PlayerPrefs.DeleteAll();
         //PlayerPrefs.Save();
     }
